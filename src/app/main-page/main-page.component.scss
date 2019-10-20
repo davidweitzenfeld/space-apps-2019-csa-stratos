@@ -24,6 +24,16 @@ app-image-preview {
   width: calc(100% - (24px + 360px + 24px + 24px));
 }
 
+.options-card {
+  position: fixed;
+  bottom: 29px;
+  right: 54px;
+
+  mat-form-field {
+    margin-bottom: -6px;
+  }
+}
+
 #map {
   position: fixed;
   top: 0;

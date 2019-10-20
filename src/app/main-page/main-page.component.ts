@@ -42,6 +42,8 @@ export class MainPageComponent implements OnInit {
 
   previewImage?: Image;
 
+  mapStyle: 'light' | 'dark' | 'satellite' | 'outdoors'  = 'satellite';
+
   constructor(
     private readonly dataService: DataService,
   ) {

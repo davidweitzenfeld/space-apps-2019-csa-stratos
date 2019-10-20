@@ -2,7 +2,8 @@
   id="map"
   [isDataLoaded]="isDataLoaded"
   [currentTime]="currentTime"
-  [bounds]="mapBounds">
+  [bounds]="mapBounds"
+  [style]="mapStyle">
 </app-main-map>
 
 <ng-container *ngIf="isDataLoaded">
@@ -31,5 +32,17 @@
     [image]="previewImage"
     (close)="previewImage = undefined">
   </app-image-preview>
+
+  <mat-card class="options-card">
+    <mat-form-field (click)="$event.stopPropagation()">
+      <mat-label>Map style</mat-label>
+      <mat-select [(value)]="mapStyle">
+        <mat-option [value]="'light'">Light</mat-option>
+        <mat-option [value]="'dark'">Dark</mat-option>
+        <mat-option [value]="'satellite'">Satellite</mat-option>
+        <mat-option [value]="'outdoors'">Outdoors</mat-option>
+      </mat-select>
+    </mat-form-field>
+  </mat-card>
 
 </ng-container>
