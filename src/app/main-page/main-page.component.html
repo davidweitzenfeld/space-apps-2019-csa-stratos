@@ -1,0 +1,35 @@
+<app-main-map
+  id="map"
+  [isDataLoaded]="isDataLoaded"
+  [currentTime]="currentTime"
+  [bounds]="mapBounds">
+</app-main-map>
+
+<ng-container *ngIf="isDataLoaded">
+
+  <app-info-panel
+    [isDataLoaded]="isDataLoaded"
+    [images]="images"
+    [envData]="envData"
+    [travelData]="travelData"
+    (imageSelected)="previewImage = $event">
+  </app-info-panel>
+
+  <app-top-bar
+    [(isPlayback)]="isPlayback"
+    (isPlaybackChange)="this.onPlaybackToggle()"
+    [(playbackRate)]="playbackRate"
+    [(currentTime)]="currentTime"
+    (currentTimeChange)="this.onTimeChange(currentTime.getTime())"
+    [startTime]="startTime"
+    [endTime]="endTime"
+    [charts]="charts">
+  </app-top-bar>
+
+  <app-image-preview
+    *ngIf="previewImage"
+    [image]="previewImage"
+    (close)="previewImage = undefined">
+  </app-image-preview>
+
+</ng-container>

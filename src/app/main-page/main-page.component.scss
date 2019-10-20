@@ -1,0 +1,35 @@
+app-info-panel {
+  position: absolute;
+  top: 24px;
+  left: 24px;
+
+  width: 360px;
+  margin-bottom: 80px;
+}
+
+app-top-bar {
+  position: fixed;
+  top: 24px;
+  left: calc(24px + 360px + 24px);
+  right: 24px;
+}
+
+app-image-preview {
+  position: fixed;
+  top: calc(193px + 44px);
+  left: calc(24px + 360px + 24px);
+  right: 24px;
+  bottom: 24px;
+  height: calc(100% - (193px + 44px + 24px));
+  width: calc(100% - (24px + 360px + 24px + 24px));
+}
+
+#map {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+}

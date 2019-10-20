@@ -52,6 +52,9 @@
  *
  */
 
+// For ngx-mapbox-gl https://github.com/Wykks/ngx-mapbox-gl/issues/136#issuecomment-496224634)
+(window as any).global = window;
+
 /***************************************************************************************************
  * Zone JS is required by default for Angular itself.
  */
@@ -61,3 +64,5 @@ import 'zone.js/dist/zone';  // Included with Angular CLI.
 /***************************************************************************************************
  * APPLICATION IMPORTS
  */
+
+import 'hammerjs/hammer';

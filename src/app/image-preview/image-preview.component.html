@@ -1,0 +1,4 @@
+<mat-card (click)="close.emit()">
+  <img *ngIf="image.path" class="image" [src]="image.path" alt="Image"/>
+  <div *ngIf="!image.path" class="image"></div>
+</mat-card>

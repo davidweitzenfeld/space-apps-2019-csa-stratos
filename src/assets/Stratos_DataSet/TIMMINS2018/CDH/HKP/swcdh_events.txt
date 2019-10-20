@@ -1,0 +1,954 @@
+SRC,MISSION_TIME,SS_TIME,ID,EVENT_INFO
+SWCDH,2018-08-26 03:00:29.424,,EVENT,Auto imaging. Index = 173:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -t 2000 -o /mnt/ssd/swcdh/pictures/173.jpg
+SWCDH,2018-08-26 03:00:29.424,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -t 2000 -o /mnt/ssd/swcdh/pictures/large/173.jpg
+SWCDH,2018-08-26 03:02:29.441,,EVENT,Auto imaging. Index = 174:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -t 2000 -o /mnt/ssd/swcdh/pictures/174.jpg
+SWCDH,2018-08-26 03:02:29.441,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -t 2000 -o /mnt/ssd/swcdh/pictures/174.jpg
+SWCDH,2018-08-26 03:02:29.441,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/174.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 03:02:29.441,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -t 2000 -o /mnt/ssd/swcdh/pictures/large/174.jpg
+SWCDH,2018-08-26 03:04:29.444,,EVENT,Auto imaging. Index = 175:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -t 2000 -o /mnt/ssd/swcdh/pictures/175.jpg
+SWCDH,2018-08-26 03:04:29.444,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -t 2000 -o /mnt/ssd/swcdh/pictures/large/175.jpg
+SWCDH,2018-08-26 03:16:45.535,,EVENT,Auto imaging. Index = 176:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -t 2000 -o /mnt/ssd/swcdh/pictures/176.jpg
+SWCDH,2018-08-26 03:16:45.535,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -t 2000 -o /mnt/ssd/swcdh/pictures/176.jpg
+SWCDH,2018-08-26 03:16:45.535,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/176.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 03:16:45.535,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -t 2000 -o /mnt/ssd/swcdh/pictures/large/176.jpg
+SWCDH,2018-08-26 03:18:45.548,,EVENT,Auto imaging. Index = 177:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -t 2000 -o /mnt/ssd/swcdh/pictures/177.jpg
+SWCDH,2018-08-26 03:18:45.548,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -t 2000 -o /mnt/ssd/swcdh/pictures/large/177.jpg
+SWCDH,2018-08-26 03:20:45.555,,EVENT,Auto imaging. Index = 178:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -t 2000 -o /mnt/ssd/swcdh/pictures/178.jpg
+SWCDH,2018-08-26 03:20:45.555,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -t 2000 -o /mnt/ssd/swcdh/pictures/178.jpg
+SWCDH,2018-08-26 03:20:45.555,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/178.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 03:20:45.555,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -t 2000 -o /mnt/ssd/swcdh/pictures/large/178.jpg
+SWCDH,2018-08-26 03:22:45.578,,EVENT,Auto imaging. Index = 179:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -t 2000 -o /mnt/ssd/swcdh/pictures/179.jpg
+SWCDH,2018-08-26 03:22:45.578,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -t 2000 -o /mnt/ssd/swcdh/pictures/large/179.jpg
+SWCDH,2018-08-26 03:24:45.586,,EVENT,Auto imaging. Index = 180:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -t 2000 -o /mnt/ssd/swcdh/pictures/180.jpg
+SWCDH,2018-08-26 03:24:45.586,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -t 2000 -o /mnt/ssd/swcdh/pictures/180.jpg
+SWCDH,2018-08-26 03:24:45.586,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/180.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 03:24:45.586,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -t 2000 -o /mnt/ssd/swcdh/pictures/large/180.jpg
+SWCDH,2018-08-26 03:26:45.620,,EVENT,Auto imaging. Index = 181:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/181.jpg
+SWCDH,2018-08-26 03:26:45.620,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/181.jpg
+SWCDH,2018-08-26 03:28:45.657,,EVENT,Auto imaging. Index = 182:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/182.jpg
+SWCDH,2018-08-26 03:28:45.657,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/182.jpg
+SWCDH,2018-08-26 03:28:45.657,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/182.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 03:28:45.657,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/182.jpg
+SWCDH,2018-08-26 03:30:45.730,,EVENT,Auto imaging. Index = 183:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/183.jpg
+SWCDH,2018-08-26 03:30:45.730,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/183.jpg
+SWCDH,2018-08-26 03:35:14.034,,EVENT,Auto imaging. Index = 184:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/184.jpg
+SWCDH,2018-08-26 03:35:14.034,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/184.jpg
+SWCDH,2018-08-26 03:35:14.034,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/184.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 03:35:14.034,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/184.jpg
+SWCDH,2018-08-26 03:37:14.071,,EVENT,Auto imaging. Index = 185:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/185.jpg
+SWCDH,2018-08-26 03:37:14.071,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/185.jpg
+SWCDH,2018-08-26 03:39:14.077,,EVENT,Auto imaging. Index = 186:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/186.jpg
+SWCDH,2018-08-26 03:39:14.077,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/186.jpg
+SWCDH,2018-08-26 03:39:14.077,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/186.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 03:39:14.077,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/186.jpg
+SWCDH,2018-08-26 03:41:14.095,,EVENT,Auto imaging. Index = 187:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/187.jpg
+SWCDH,2018-08-26 03:41:14.095,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/187.jpg
+SWCDH,2018-08-26 03:43:14.131,,EVENT,Auto imaging. Index = 188:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/188.jpg
+SWCDH,2018-08-26 03:43:14.131,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/188.jpg
+SWCDH,2018-08-26 03:43:14.131,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/188.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 03:43:14.131,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/188.jpg
+SWCDH,2018-08-26 03:45:14.142,,EVENT,Auto imaging. Index = 189:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/189.jpg
+SWCDH,2018-08-26 03:45:14.142,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/189.jpg
+SWCDH,2018-08-26 03:47:14.164,,EVENT,Auto imaging. Index = 190:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/190.jpg
+SWCDH,2018-08-26 03:47:14.164,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/190.jpg
+SWCDH,2018-08-26 03:47:14.164,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/190.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 03:47:14.164,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/190.jpg
+SWCDH,2018-08-26 03:49:14.205,,EVENT,Auto imaging. Index = 191:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/191.jpg
+SWCDH,2018-08-26 03:49:14.205,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/191.jpg
+SWCDH,2018-08-26 03:51:14.205,,EVENT,Auto imaging. Index = 192:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/192.jpg
+SWCDH,2018-08-26 03:51:14.205,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/192.jpg
+SWCDH,2018-08-26 03:51:14.205,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/192.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 03:51:14.205,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/192.jpg
+SWCDH,2018-08-26 03:53:14.234,,EVENT,Auto imaging. Index = 193:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/193.jpg
+SWCDH,2018-08-26 03:53:14.234,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/193.jpg
+SWCDH,2018-08-26 03:55:14.272,,EVENT,Auto imaging. Index = 194:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/194.jpg
+SWCDH,2018-08-26 03:55:14.272,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/194.jpg
+SWCDH,2018-08-26 03:55:14.272,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/194.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 03:55:14.272,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/194.jpg
+SWCDH,2018-08-26 03:57:14.298,,EVENT,Auto imaging. Index = 195:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/195.jpg
+SWCDH,2018-08-26 03:57:14.298,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/195.jpg
+SWCDH,2018-08-26 03:59:14.313,,EVENT,Auto imaging. Index = 196:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/196.jpg
+SWCDH,2018-08-26 03:59:14.313,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/196.jpg
+SWCDH,2018-08-26 03:59:14.313,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/196.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 03:59:14.313,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/196.jpg
+SWCDH,2018-08-26 04:01:14.317,,EVENT,Auto imaging. Index = 197:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/197.jpg
+SWCDH,2018-08-26 04:01:14.317,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/197.jpg
+SWCDH,2018-08-26 04:03:14.347,,EVENT,Auto imaging. Index = 198:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/198.jpg
+SWCDH,2018-08-26 04:03:14.347,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/198.jpg
+SWCDH,2018-08-26 04:03:14.347,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/198.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 04:03:14.347,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/198.jpg
+SWCDH,2018-08-26 04:05:14.375,,EVENT,Auto imaging. Index = 199:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/199.jpg
+SWCDH,2018-08-26 04:05:14.375,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/199.jpg
+SWCDH,2018-08-26 04:07:14.390,,EVENT,Auto imaging. Index = 200:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/200.jpg
+SWCDH,2018-08-26 04:07:14.390,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/200.jpg
+SWCDH,2018-08-26 04:07:14.390,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/200.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 04:07:14.390,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/200.jpg
+SWCDH,2018-08-26 04:09:14.422,,EVENT,Auto imaging. Index = 201:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/201.jpg
+SWCDH,2018-08-26 04:09:14.422,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/201.jpg
+SWCDH,2018-08-26 04:11:14.439,,EVENT,Auto imaging. Index = 202:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/202.jpg
+SWCDH,2018-08-26 04:11:14.439,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/202.jpg
+SWCDH,2018-08-26 04:11:14.439,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/202.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 04:11:14.439,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/202.jpg
+SWCDH,2018-08-26 04:13:14.461,,EVENT,Auto imaging. Index = 203:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/203.jpg
+SWCDH,2018-08-26 04:13:14.461,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/203.jpg
+SWCDH,2018-08-26 04:15:14.471,,EVENT,Auto imaging. Index = 204:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/204.jpg
+SWCDH,2018-08-26 04:15:14.471,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/204.jpg
+SWCDH,2018-08-26 04:15:14.471,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/204.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 04:15:14.471,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/204.jpg
+SWCDH,2018-08-26 04:17:14.477,,EVENT,Auto imaging. Index = 205:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/205.jpg
+SWCDH,2018-08-26 04:17:14.477,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/205.jpg
+SWCDH,2018-08-26 04:19:14.518,,EVENT,Auto imaging. Index = 206:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/206.jpg
+SWCDH,2018-08-26 04:19:14.518,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/206.jpg
+SWCDH,2018-08-26 04:19:14.518,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/206.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 04:19:14.518,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/206.jpg
+SWCDH,2018-08-26 04:21:14.557,,EVENT,Auto imaging. Index = 207:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/207.jpg
+SWCDH,2018-08-26 04:21:14.557,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/207.jpg
+SWCDH,2018-08-26 04:22:39.523,,EVENT,Auto imaging. Index = 208:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/208.jpg
+SWCDH,2018-08-26 04:22:39.523,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/208.jpg
+SWCDH,2018-08-26 04:22:39.523,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/208.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 04:22:39.523,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/208.jpg
+SWCDH,2018-08-26 04:24:39.530,,EVENT,Auto imaging. Index = 209:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/209.jpg
+SWCDH,2018-08-26 04:24:39.530,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/209.jpg
+SWCDH,2018-08-26 04:26:39.537,,EVENT,Auto imaging. Index = 210:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/210.jpg
+SWCDH,2018-08-26 04:26:39.537,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/210.jpg
+SWCDH,2018-08-26 04:26:39.537,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/210.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 04:26:39.537,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/210.jpg
+SWCDH,2018-08-26 04:28:39.592,,EVENT,Auto imaging. Index = 211:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/211.jpg
+SWCDH,2018-08-26 04:28:39.592,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/211.jpg
+SWCDH,2018-08-26 04:30:39.619,,EVENT,Auto imaging. Index = 212:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/212.jpg
+SWCDH,2018-08-26 04:30:39.619,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/212.jpg
+SWCDH,2018-08-26 04:30:39.619,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/212.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 04:30:39.619,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/212.jpg
+SWCDH,2018-08-26 04:32:39.627,,EVENT,Auto imaging. Index = 213:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/213.jpg
+SWCDH,2018-08-26 04:32:39.627,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/213.jpg
+SWCDH,2018-08-26 04:34:39.631,,EVENT,Auto imaging. Index = 214:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/214.jpg
+SWCDH,2018-08-26 04:34:39.631,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/214.jpg
+SWCDH,2018-08-26 04:34:39.631,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/214.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 04:34:39.631,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/214.jpg
+SWCDH,2018-08-26 04:36:39.646,,EVENT,Auto imaging. Index = 215:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/215.jpg
+SWCDH,2018-08-26 04:36:39.646,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/215.jpg
+SWCDH,2018-08-26 04:38:39.674,,EVENT,Auto imaging. Index = 216:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/216.jpg
+SWCDH,2018-08-26 04:38:39.674,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/216.jpg
+SWCDH,2018-08-26 04:38:39.674,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/216.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 04:38:39.674,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/216.jpg
+SWCDH,2018-08-26 04:40:39.706,,EVENT,Auto imaging. Index = 217:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/217.jpg
+SWCDH,2018-08-26 04:40:39.706,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/217.jpg
+SWCDH,2018-08-26 04:42:39.708,,EVENT,Auto imaging. Index = 218:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/218.jpg
+SWCDH,2018-08-26 04:42:39.708,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/218.jpg
+SWCDH,2018-08-26 04:42:39.708,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/218.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 04:42:39.708,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/218.jpg
+SWCDH,2018-08-26 04:44:39.711,,EVENT,Auto imaging. Index = 219:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/219.jpg
+SWCDH,2018-08-26 04:44:39.711,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/219.jpg
+SWCDH,2018-08-26 04:46:39.729,,EVENT,Auto imaging. Index = 220:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/220.jpg
+SWCDH,2018-08-26 04:46:39.729,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/220.jpg
+SWCDH,2018-08-26 04:46:39.729,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/220.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 04:46:39.729,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/220.jpg
+SWCDH,2018-08-26 04:48:39.762,,EVENT,Auto imaging. Index = 221:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/221.jpg
+SWCDH,2018-08-26 04:48:39.762,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/221.jpg
+SWCDH,2018-08-26 04:50:39.802,,EVENT,Auto imaging. Index = 222:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/222.jpg
+SWCDH,2018-08-26 04:50:39.802,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/222.jpg
+SWCDH,2018-08-26 04:50:39.802,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/222.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 04:50:39.802,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/222.jpg
+SWCDH,2018-08-26 04:52:39.825,,EVENT,Auto imaging. Index = 223:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/223.jpg
+SWCDH,2018-08-26 04:52:39.825,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/223.jpg
+SWCDH,2018-08-26 04:54:39.865,,EVENT,Auto imaging. Index = 224:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/224.jpg
+SWCDH,2018-08-26 04:54:39.865,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/224.jpg
+SWCDH,2018-08-26 04:54:39.865,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/224.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 04:54:39.865,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/224.jpg
+SWCDH,2018-08-26 04:56:39.873,,EVENT,Auto imaging. Index = 225:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/225.jpg
+SWCDH,2018-08-26 04:56:39.873,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/225.jpg
+SWCDH,2018-08-26 04:58:39.900,,EVENT,Auto imaging. Index = 226:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/226.jpg
+SWCDH,2018-08-26 04:58:39.900,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/226.jpg
+SWCDH,2018-08-26 04:58:39.900,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/226.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 04:58:39.900,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/226.jpg
+SWCDH,2018-08-26 05:00:39.938,,EVENT,Auto imaging. Index = 227:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/227.jpg
+SWCDH,2018-08-26 05:00:39.938,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/227.jpg
+SWCDH,2018-08-26 05:02:39.938,,EVENT,Auto imaging. Index = 228:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/228.jpg
+SWCDH,2018-08-26 05:02:39.938,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/228.jpg
+SWCDH,2018-08-26 05:02:39.938,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/228.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 05:02:39.938,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/228.jpg
+SWCDH,2018-08-26 05:04:39.978,,EVENT,Auto imaging. Index = 229:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/229.jpg
+SWCDH,2018-08-26 05:04:39.978,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/229.jpg
+SWCDH,2018-08-26 05:06:39.984,,EVENT,Auto imaging. Index = 230:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/230.jpg
+SWCDH,2018-08-26 05:06:39.984,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/230.jpg
+SWCDH,2018-08-26 05:06:39.984,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/230.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 05:06:39.984,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/230.jpg
+SWCDH,2018-08-26 05:08:40.007,,EVENT,Auto imaging. Index = 231:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/231.jpg
+SWCDH,2018-08-26 05:08:40.007,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/231.jpg
+SWCDH,2018-08-26 05:10:40.048,,EVENT,Auto imaging. Index = 232:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/232.jpg
+SWCDH,2018-08-26 05:10:40.048,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/232.jpg
+SWCDH,2018-08-26 05:10:40.048,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/232.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 05:10:40.048,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/232.jpg
+SWCDH,2018-08-26 05:12:40.058,,EVENT,Auto imaging. Index = 233:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/233.jpg
+SWCDH,2018-08-26 05:12:40.058,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/233.jpg
+SWCDH,2018-08-26 05:14:40.082,,EVENT,Auto imaging. Index = 234:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/234.jpg
+SWCDH,2018-08-26 05:14:40.082,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/234.jpg
+SWCDH,2018-08-26 05:14:40.082,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/234.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 05:14:40.082,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/234.jpg
+SWCDH,2018-08-26 05:16:40.087,,EVENT,Auto imaging. Index = 235:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/235.jpg
+SWCDH,2018-08-26 05:16:40.087,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/235.jpg
+SWCDH,2018-08-26 05:18:40.126,,EVENT,Auto imaging. Index = 236:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/236.jpg
+SWCDH,2018-08-26 05:18:40.126,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/236.jpg
+SWCDH,2018-08-26 05:18:40.126,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/236.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 05:18:40.126,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/236.jpg
+SWCDH,2018-08-26 05:21:07.752,,EVENT,Auto imaging. Index = 237:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/237.jpg
+SWCDH,2018-08-26 05:21:07.752,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/237.jpg
+SWCDH,2018-08-26 05:23:07.788,,EVENT,Auto imaging. Index = 238:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/238.jpg
+SWCDH,2018-08-26 05:23:07.788,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/238.jpg
+SWCDH,2018-08-26 05:23:07.788,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/238.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 05:23:07.788,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/238.jpg
+SWCDH,2018-08-26 05:25:07.795,,EVENT,Auto imaging. Index = 239:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/239.jpg
+SWCDH,2018-08-26 05:25:07.795,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/239.jpg
+SWCDH,2018-08-26 05:27:12.040,,EVENT,Auto imaging. Index = 240:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/240.jpg
+SWCDH,2018-08-26 05:27:12.040,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/240.jpg
+SWCDH,2018-08-26 05:27:12.040,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/240.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 05:27:12.040,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/240.jpg
+SWCDH,2018-08-26 05:29:12.075,,EVENT,Auto imaging. Index = 241:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/241.jpg
+SWCDH,2018-08-26 05:29:12.075,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/241.jpg
+SWCDH,2018-08-26 05:31:12.103,,EVENT,Auto imaging. Index = 242:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/242.jpg
+SWCDH,2018-08-26 05:31:12.103,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/242.jpg
+SWCDH,2018-08-26 05:31:12.103,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/242.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 05:31:12.103,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/242.jpg
+SWCDH,2018-08-26 05:32:07.356,,EVENT,Auto imaging. Index = 243:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex verylong -t 2000 -o /mnt/ssd/swcdh/pictures/243.jpg
+SWCDH,2018-08-26 05:32:07.356,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex verylong -t 2000 -o /mnt/ssd/swcdh/pictures/large/243.jpg
+SWCDH,2018-08-26 05:33:38.987,,EVENT,Auto imaging. Index = 244:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex night -t 2000 -o /mnt/ssd/swcdh/pictures/244.jpg
+SWCDH,2018-08-26 05:33:38.987,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex night -t 2000 -o /mnt/ssd/swcdh/pictures/244.jpg
+SWCDH,2018-08-26 05:33:38.987,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/244.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 05:33:38.987,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex night -t 2000 -o /mnt/ssd/swcdh/pictures/large/244.jpg
+SWCDH,2018-08-26 05:35:04.441,,EVENT,Auto imaging. Index = 245:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex night -br 75 -t 2000 -o /mnt/ssd/swcdh/pictures/245.jpg
+SWCDH,2018-08-26 05:35:04.441,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex night -br 75 -t 2000 -o /mnt/ssd/swcdh/pictures/large/245.jpg
+SWCDH,2018-08-26 05:37:04.473,,EVENT,Auto imaging. Index = 246:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex night -br 60 -t 2000 -o /mnt/ssd/swcdh/pictures/246.jpg
+SWCDH,2018-08-26 05:37:04.473,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex night -br 60 -t 2000 -o /mnt/ssd/swcdh/pictures/246.jpg
+SWCDH,2018-08-26 05:37:04.473,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/246.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 05:37:04.473,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex night -br 60 -t 2000 -o /mnt/ssd/swcdh/pictures/large/246.jpg
+SWCDH,2018-08-26 05:39:04.481,,EVENT,Auto imaging. Index = 247:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex night -br 60 -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/247.jpg
+SWCDH,2018-08-26 05:39:04.481,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex night -br 60 -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/247.jpg
+SWCDH,2018-08-26 05:41:04.491,,EVENT,Auto imaging. Index = 248:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex night -br 60 -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/248.jpg
+SWCDH,2018-08-26 05:41:04.491,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex night -br 60 -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/248.jpg
+SWCDH,2018-08-26 05:41:04.491,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/248.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 05:41:04.491,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex night -br 60 -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/248.jpg
+SWCDH,2018-08-26 05:43:04.539,,EVENT,Auto imaging. Index = 249:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex night -br 60 -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/249.jpg
+SWCDH,2018-08-26 05:43:04.539,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex night -br 60 -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/249.jpg
+SWCDH,2018-08-26 05:45:04.580,,EVENT,Auto imaging. Index = 250:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex night -br 60 -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/250.jpg
+SWCDH,2018-08-26 05:45:04.580,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex night -br 60 -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/250.jpg
+SWCDH,2018-08-26 05:45:04.580,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/250.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 05:45:04.580,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex night -br 60 -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/250.jpg
+SWCDH,2018-08-26 05:47:26.880,,EVENT,Auto imaging. Index = 251:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex night -br 60 -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/251.jpg
+SWCDH,2018-08-26 05:47:26.880,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex night -br 60 -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/251.jpg
+SWCDH,2018-08-26 05:49:11.801,,EVENT,Auto imaging. Index = 252:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex night -br 60 -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/252.jpg
+SWCDH,2018-08-26 05:49:11.801,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex night -br 60 -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/252.jpg
+SWCDH,2018-08-26 05:49:11.801,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/252.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 05:49:11.801,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex night -br 60 -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/252.jpg
+SWCDH,2018-08-26 05:51:50.514,,EVENT,Auto imaging. Index = 253:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex night -br 60 -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/253.jpg
+SWCDH,2018-08-26 05:51:50.514,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex night -br 60 -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/253.jpg
+SWCDH,2018-08-26 05:53:50.541,,EVENT,Auto imaging. Index = 254:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex night -br 60 -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/254.jpg
+SWCDH,2018-08-26 05:53:50.541,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex night -br 60 -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/254.jpg
+SWCDH,2018-08-26 05:53:50.541,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/254.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 05:53:50.541,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex night -br 60 -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/254.jpg
+SWCDH,2018-08-26 05:55:02.577,,EVENT,Auto imaging. Index = 255:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a "CSA PRISM" -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/255.jpg
+SWCDH,2018-08-26 05:55:02.577,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a "CSA PRISM" -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/255.jpg
+SWCDH,2018-08-26 05:55:36.967,,EVENT,Auto imaging. Index = 256:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/256.jpg
+SWCDH,2018-08-26 05:55:36.967,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/256.jpg
+SWCDH,2018-08-26 05:55:36.967,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/256.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 05:55:36.967,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/256.jpg
+SWCDH,2018-08-26 06:00:44.434,,EVENT,Auto imaging. Index = 257:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/257.jpg
+SWCDH,2018-08-26 06:00:44.434,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/257.jpg
+SWCDH,2018-08-26 06:03:02.138,,EVENT,Auto imaging. Index = 258:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/258.jpg
+SWCDH,2018-08-26 06:03:02.138,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/258.jpg
+SWCDH,2018-08-26 06:03:02.138,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/258.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 06:03:02.138,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/258.jpg
+SWCDH,2018-08-26 06:05:02.161,,EVENT,Auto imaging. Index = 259:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/259.jpg
+SWCDH,2018-08-26 06:05:02.161,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/259.jpg
+SWCDH,2018-08-26 06:07:02.185,,EVENT,Auto imaging. Index = 260:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/260.jpg
+SWCDH,2018-08-26 06:07:02.185,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/260.jpg
+SWCDH,2018-08-26 06:07:02.185,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/260.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 06:07:02.185,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/260.jpg
+SWCDH,2018-08-26 06:09:02.468,,EVENT,Auto imaging. Index = 261:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/261.jpg
+SWCDH,2018-08-26 06:09:02.468,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/261.jpg
+SWCDH,2018-08-26 06:11:02.502,,EVENT,Auto imaging. Index = 262:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/262.jpg
+SWCDH,2018-08-26 06:11:02.502,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/262.jpg
+SWCDH,2018-08-26 06:11:02.502,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/262.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 06:11:02.502,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/262.jpg
+SWCDH,2018-08-26 06:13:02.543,,EVENT,Auto imaging. Index = 263:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/263.jpg
+SWCDH,2018-08-26 06:13:02.543,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/263.jpg
+SWCDH,2018-08-26 06:15:02.579,,EVENT,Auto imaging. Index = 264:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/264.jpg
+SWCDH,2018-08-26 06:15:02.579,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/264.jpg
+SWCDH,2018-08-26 06:15:02.579,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/264.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 06:15:02.579,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/264.jpg
+SWCDH,2018-08-26 06:17:02.630,,EVENT,Auto imaging. Index = 265:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/265.jpg
+SWCDH,2018-08-26 06:17:02.630,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/265.jpg
+SWCDH,2018-08-26 06:19:02.640,,EVENT,Auto imaging. Index = 266:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/266.jpg
+SWCDH,2018-08-26 06:19:02.640,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/266.jpg
+SWCDH,2018-08-26 06:19:02.640,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/266.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 06:19:02.640,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/266.jpg
+SWCDH,2018-08-26 06:21:02.709,,EVENT,Auto imaging. Index = 267:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/267.jpg
+SWCDH,2018-08-26 06:21:02.709,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/267.jpg
+SWCDH,2018-08-26 06:23:02.741,,EVENT,Auto imaging. Index = 268:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/268.jpg
+SWCDH,2018-08-26 06:23:02.741,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/268.jpg
+SWCDH,2018-08-26 06:23:02.741,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/268.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 06:23:02.741,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/268.jpg
+SWCDH,2018-08-26 06:25:02.745,,EVENT,Auto imaging. Index = 269:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/269.jpg
+SWCDH,2018-08-26 06:25:02.745,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/269.jpg
+SWCDH,2018-08-26 06:27:25.291,,EVENT,Auto imaging. Index = 270:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/270.jpg
+SWCDH,2018-08-26 06:27:25.291,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/270.jpg
+SWCDH,2018-08-26 06:27:25.291,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/270.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 06:27:25.291,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/270.jpg
+SWCDH,2018-08-26 06:29:25.334,,EVENT,Auto imaging. Index = 271:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/271.jpg
+SWCDH,2018-08-26 06:29:25.334,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/271.jpg
+SWCDH,2018-08-26 06:31:25.373,,EVENT,Auto imaging. Index = 272:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/272.jpg
+SWCDH,2018-08-26 06:31:25.373,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/272.jpg
+SWCDH,2018-08-26 06:31:25.373,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/272.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 06:31:25.373,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/272.jpg
+SWCDH,2018-08-26 06:34:21.835,,EVENT,Auto imaging. Index = 273:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/273.jpg
+SWCDH,2018-08-26 06:34:21.835,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/273.jpg
+SWCDH,2018-08-26 06:36:43.731,,EVENT,Auto imaging. Index = 274:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/274.jpg
+SWCDH,2018-08-26 06:36:43.731,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/274.jpg
+SWCDH,2018-08-26 06:36:43.731,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/274.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 06:36:43.731,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/274.jpg
+SWCDH,2018-08-26 06:38:43.771,,EVENT,Auto imaging. Index = 275:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/275.jpg
+SWCDH,2018-08-26 06:38:43.771,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/275.jpg
+SWCDH,2018-08-26 06:41:12.112,,EVENT,Auto imaging. Index = 276:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/276.jpg
+SWCDH,2018-08-26 06:41:12.112,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/276.jpg
+SWCDH,2018-08-26 06:41:12.112,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/276.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 06:41:12.112,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/276.jpg
+SWCDH,2018-08-26 06:43:12.143,,EVENT,Auto imaging. Index = 277:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/277.jpg
+SWCDH,2018-08-26 06:43:12.143,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/277.jpg
+SWCDH,2018-08-26 06:46:07.677,,EVENT,Auto imaging. Index = 278:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/278.jpg
+SWCDH,2018-08-26 06:46:07.677,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/278.jpg
+SWCDH,2018-08-26 06:46:07.677,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/278.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 06:46:07.677,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/278.jpg
+SWCDH,2018-08-26 06:48:39.615,,EVENT,Auto imaging. Index = 279:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/279.jpg
+SWCDH,2018-08-26 06:48:39.615,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/279.jpg
+SWCDH,2018-08-26 06:50:39.649,,EVENT,Auto imaging. Index = 280:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/280.jpg
+SWCDH,2018-08-26 06:50:39.649,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/280.jpg
+SWCDH,2018-08-26 06:50:39.649,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/280.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 06:50:39.649,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/280.jpg
+SWCDH,2018-08-26 06:52:39.656,,EVENT,Auto imaging. Index = 281:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/281.jpg
+SWCDH,2018-08-26 06:52:39.656,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/281.jpg
+SWCDH,2018-08-26 06:54:55.658,,EVENT,Auto imaging. Index = 282:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/282.jpg
+SWCDH,2018-08-26 06:54:55.658,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/282.jpg
+SWCDH,2018-08-26 06:54:55.658,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/282.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 06:54:55.658,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/282.jpg
+SWCDH,2018-08-26 06:56:55.681,,EVENT,Auto imaging. Index = 283:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/283.jpg
+SWCDH,2018-08-26 06:56:55.681,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/283.jpg
+SWCDH,2018-08-26 07:02:05.465,,EVENT,Auto imaging. Index = 284:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/284.jpg
+SWCDH,2018-08-26 07:02:05.465,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/284.jpg
+SWCDH,2018-08-26 07:02:05.465,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/284.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 07:02:05.465,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/284.jpg
+SWCDH,2018-08-26 07:04:24.328,,EVENT,Auto imaging. Index = 285:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/285.jpg
+SWCDH,2018-08-26 07:04:24.328,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/285.jpg
+SWCDH,2018-08-26 07:06:24.336,,EVENT,Auto imaging. Index = 286:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/286.jpg
+SWCDH,2018-08-26 07:06:24.336,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/286.jpg
+SWCDH,2018-08-26 07:06:24.336,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/286.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 07:06:24.336,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/286.jpg
+SWCDH,2018-08-26 07:09:44.409,,EVENT,Auto imaging. Index = 287:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/287.jpg
+SWCDH,2018-08-26 07:09:44.409,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/287.jpg
+SWCDH,2018-08-26 07:11:52.152,,EVENT,Auto imaging. Index = 288:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/288.jpg
+SWCDH,2018-08-26 07:11:52.152,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -br 60 -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/288.jpg
+SWCDH,2018-08-26 07:11:52.152,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/288.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 07:11:52.152,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -br 60 -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/288.jpg
+SWCDH,2018-08-26 07:13:52.197,,EVENT,Auto imaging. Index = 289:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/289.jpg
+SWCDH,2018-08-26 07:13:52.197,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/289.jpg
+SWCDH,2018-08-26 07:15:52.233,,EVENT,Auto imaging. Index = 290:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/290.jpg
+SWCDH,2018-08-26 07:15:52.233,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/290.jpg
+SWCDH,2018-08-26 07:15:52.233,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/290.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 07:15:52.233,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/290.jpg
+SWCDH,2018-08-26 07:17:37.421,,EVENT,Auto imaging. Index = 291:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/291.jpg
+SWCDH,2018-08-26 07:17:37.421,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/291.jpg
+SWCDH,2018-08-26 07:18:30.285,,EVENT,Auto imaging. Index = 292:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -t 2000 -o /mnt/ssd/swcdh/pictures/292.jpg
+SWCDH,2018-08-26 07:18:30.285,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -t 2000 -o /mnt/ssd/swcdh/pictures/292.jpg
+SWCDH,2018-08-26 07:18:30.285,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/292.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 07:18:30.285,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -t 2000 -o /mnt/ssd/swcdh/pictures/large/292.jpg
+SWCDH,2018-08-26 07:20:30.323,,EVENT,Auto imaging. Index = 293:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -t 2000 -o /mnt/ssd/swcdh/pictures/293.jpg
+SWCDH,2018-08-26 07:20:30.323,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -t 2000 -o /mnt/ssd/swcdh/pictures/large/293.jpg
+SWCDH,2018-08-26 07:21:10.532,,EVENT,Auto imaging. Index = 294:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -t 2000 -o /mnt/ssd/swcdh/pictures/294.jpg
+SWCDH,2018-08-26 07:21:10.532,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -t 2000 -o /mnt/ssd/swcdh/pictures/294.jpg
+SWCDH,2018-08-26 07:21:10.532,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/294.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 07:21:10.532,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -t 2000 -o /mnt/ssd/swcdh/pictures/large/294.jpg
+SWCDH,2018-08-26 07:22:06.657,,EVENT,Auto imaging. Index = 295:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -t 2000 -o /mnt/ssd/swcdh/pictures/295.jpg
+SWCDH,2018-08-26 07:22:06.657,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -t 2000 -o /mnt/ssd/swcdh/pictures/large/295.jpg
+SWCDH,2018-08-26 07:22:43.355,,EVENT,Auto imaging. Index = 296:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -t 2000 -o /mnt/ssd/swcdh/pictures/296.jpg
+SWCDH,2018-08-26 07:22:43.355,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -t 2000 -o /mnt/ssd/swcdh/pictures/296.jpg
+SWCDH,2018-08-26 07:22:43.355,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/296.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 07:22:43.355,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -t 2000 -o /mnt/ssd/swcdh/pictures/large/296.jpg
+SWCDH,2018-08-26 07:24:43.389,,EVENT,Auto imaging. Index = 297:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -t 2000 -o /mnt/ssd/swcdh/pictures/297.jpg
+SWCDH,2018-08-26 07:24:43.389,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -t 2000 -o /mnt/ssd/swcdh/pictures/large/297.jpg
+SWCDH,2018-08-26 07:26:43.416,,EVENT,Auto imaging. Index = 298:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -t 2000 -o /mnt/ssd/swcdh/pictures/298.jpg
+SWCDH,2018-08-26 07:26:43.416,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -t 2000 -o /mnt/ssd/swcdh/pictures/298.jpg
+SWCDH,2018-08-26 07:26:43.416,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/298.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 07:26:43.416,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -t 2000 -o /mnt/ssd/swcdh/pictures/large/298.jpg
+SWCDH,2018-08-26 07:28:43.442,,EVENT,Auto imaging. Index = 299:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex verylong -t 2000 -o /mnt/ssd/swcdh/pictures/299.jpg
+SWCDH,2018-08-26 07:28:43.442,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex verylong -t 2000 -o /mnt/ssd/swcdh/pictures/large/299.jpg
+SWCDH,2018-08-26 07:30:43.486,,EVENT,Auto imaging. Index = 300:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex verylong -t 2000 -o /mnt/ssd/swcdh/pictures/300.jpg
+SWCDH,2018-08-26 07:30:43.486,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex verylong -t 2000 -o /mnt/ssd/swcdh/pictures/300.jpg
+SWCDH,2018-08-26 07:30:43.486,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/300.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 07:30:43.486,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex verylong -t 2000 -o /mnt/ssd/swcdh/pictures/large/300.jpg
+SWCDH,2018-08-26 07:32:43.554,,EVENT,Auto imaging. Index = 301:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex verylong -t 2000 -o /mnt/ssd/swcdh/pictures/301.jpg
+SWCDH,2018-08-26 07:32:43.554,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex verylong -t 2000 -o /mnt/ssd/swcdh/pictures/large/301.jpg
+SWCDH,2018-08-26 07:34:43.571,,EVENT,Auto imaging. Index = 302:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex night  -t 2000 -o /mnt/ssd/swcdh/pictures/302.jpg
+SWCDH,2018-08-26 07:34:43.571,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex night  -t 2000 -o /mnt/ssd/swcdh/pictures/302.jpg
+SWCDH,2018-08-26 07:34:43.571,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/302.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 07:34:43.571,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex night  -t 2000 -o /mnt/ssd/swcdh/pictures/large/302.jpg
+SWCDH,2018-08-26 07:36:43.584,,EVENT,Auto imaging. Index = 303:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex night  -t 2000 -o /mnt/ssd/swcdh/pictures/303.jpg
+SWCDH,2018-08-26 07:36:43.584,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex night  -t 2000 -o /mnt/ssd/swcdh/pictures/large/303.jpg
+SWCDH,2018-08-26 07:38:43.606,,EVENT,Auto imaging. Index = 304:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex night  -t 2000 -o /mnt/ssd/swcdh/pictures/304.jpg
+SWCDH,2018-08-26 07:38:43.606,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex night  -t 2000 -o /mnt/ssd/swcdh/pictures/304.jpg
+SWCDH,2018-08-26 07:38:43.606,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/304.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 07:38:43.606,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex night  -t 2000 -o /mnt/ssd/swcdh/pictures/large/304.jpg
+SWCDH,2018-08-26 07:40:43.643,,EVENT,Auto imaging. Index = 305:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex night  -t 2000 -o /mnt/ssd/swcdh/pictures/305.jpg
+SWCDH,2018-08-26 07:40:43.643,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex night  -t 2000 -o /mnt/ssd/swcdh/pictures/large/305.jpg
+SWCDH,2018-08-26 07:41:21.741,,EVENT,Auto imaging. Index = 306:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex night  -t 2000 -o /mnt/ssd/swcdh/pictures/306.jpg
+SWCDH,2018-08-26 07:41:21.741,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex night  -t 2000 -o /mnt/ssd/swcdh/pictures/306.jpg
+SWCDH,2018-08-26 07:41:21.741,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/306.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 07:41:21.741,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex night  -t 2000 -o /mnt/ssd/swcdh/pictures/large/306.jpg
+SWCDH,2018-08-26 07:43:21.572,,EVENT,Auto imaging. Index = 307:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/307.jpg
+SWCDH,2018-08-26 07:43:21.572,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/307.jpg
+SWCDH,2018-08-26 07:44:09.611,,EVENT,Auto imaging. Index = 308:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/308.jpg
+SWCDH,2018-08-26 07:44:09.611,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/308.jpg
+SWCDH,2018-08-26 07:44:09.611,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/308.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 07:44:09.611,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/308.jpg
+SWCDH,2018-08-26 07:46:09.618,,EVENT,Auto imaging. Index = 309:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/309.jpg
+SWCDH,2018-08-26 07:46:09.618,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/309.jpg
+SWCDH,2018-08-26 07:48:09.652,,EVENT,Auto imaging. Index = 310:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/310.jpg
+SWCDH,2018-08-26 07:48:09.652,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/310.jpg
+SWCDH,2018-08-26 07:48:09.652,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/310.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 07:48:09.652,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/310.jpg
+SWCDH,2018-08-26 07:50:09.667,,EVENT,Auto imaging. Index = 311:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/311.jpg
+SWCDH,2018-08-26 07:50:09.667,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/311.jpg
+SWCDH,2018-08-26 07:52:09.679,,EVENT,Auto imaging. Index = 312:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/312.jpg
+SWCDH,2018-08-26 07:52:09.679,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/312.jpg
+SWCDH,2018-08-26 07:52:09.679,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/312.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 07:52:09.679,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/312.jpg
+SWCDH,2018-08-26 07:54:09.691,,EVENT,Auto imaging. Index = 313:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/313.jpg
+SWCDH,2018-08-26 07:54:09.691,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/313.jpg
+SWCDH,2018-08-26 07:56:09.705,,EVENT,Auto imaging. Index = 314:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/314.jpg
+SWCDH,2018-08-26 07:56:09.705,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/314.jpg
+SWCDH,2018-08-26 07:56:09.705,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/314.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 07:56:09.705,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/314.jpg
+SWCDH,2018-08-26 07:58:09.728,,EVENT,Auto imaging. Index = 315:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/315.jpg
+SWCDH,2018-08-26 07:58:09.728,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/315.jpg
+SWCDH,2018-08-26 08:00:09.740,,EVENT,Auto imaging. Index = 316:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/316.jpg
+SWCDH,2018-08-26 08:00:09.740,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/316.jpg
+SWCDH,2018-08-26 08:00:09.740,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/316.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 08:00:09.740,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/316.jpg
+SWCDH,2018-08-26 08:02:09.790,,EVENT,Auto imaging. Index = 317:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/317.jpg
+SWCDH,2018-08-26 08:02:09.790,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/317.jpg
+SWCDH,2018-08-26 08:04:09.832,,EVENT,Auto imaging. Index = 318:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/318.jpg
+SWCDH,2018-08-26 08:04:09.832,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/318.jpg
+SWCDH,2018-08-26 08:04:09.832,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/318.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 08:04:09.832,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/318.jpg
+SWCDH,2018-08-26 08:06:09.844,,EVENT,Auto imaging. Index = 319:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/319.jpg
+SWCDH,2018-08-26 08:06:09.844,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/319.jpg
+SWCDH,2018-08-26 08:08:09.888,,EVENT,Auto imaging. Index = 320:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/320.jpg
+SWCDH,2018-08-26 08:08:09.888,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/320.jpg
+SWCDH,2018-08-26 08:08:09.888,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/320.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 08:08:09.888,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/320.jpg
+SWCDH,2018-08-26 08:10:09.946,,EVENT,Auto imaging. Index = 321:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/321.jpg
+SWCDH,2018-08-26 08:10:09.946,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/321.jpg
+SWCDH,2018-08-26 08:12:21.606,,EVENT,Auto imaging. Index = 322:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/322.jpg
+SWCDH,2018-08-26 08:12:21.606,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/322.jpg
+SWCDH,2018-08-26 08:12:21.606,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/322.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 08:12:21.606,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/322.jpg
+SWCDH,2018-08-26 08:14:21.613,,EVENT,Auto imaging. Index = 323:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/323.jpg
+SWCDH,2018-08-26 08:14:21.613,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/323.jpg
+SWCDH,2018-08-26 08:16:21.630,,EVENT,Auto imaging. Index = 324:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/324.jpg
+SWCDH,2018-08-26 08:16:21.630,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/324.jpg
+SWCDH,2018-08-26 08:16:21.630,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/324.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 08:16:21.630,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/324.jpg
+SWCDH,2018-08-26 08:18:21.655,,EVENT,Auto imaging. Index = 325:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/325.jpg
+SWCDH,2018-08-26 08:18:21.655,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/325.jpg
+SWCDH,2018-08-26 08:20:21.688,,EVENT,Auto imaging. Index = 326:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/326.jpg
+SWCDH,2018-08-26 08:20:21.688,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/326.jpg
+SWCDH,2018-08-26 08:20:21.688,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/326.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 08:20:21.688,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/326.jpg
+SWCDH,2018-08-26 08:22:21.710,,EVENT,Auto imaging. Index = 327:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/327.jpg
+SWCDH,2018-08-26 08:22:21.710,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/327.jpg
+SWCDH,2018-08-26 08:24:21.732,,EVENT,Auto imaging. Index = 328:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/328.jpg
+SWCDH,2018-08-26 08:24:21.732,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/328.jpg
+SWCDH,2018-08-26 08:24:21.732,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/328.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 08:24:21.732,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/328.jpg
+SWCDH,2018-08-26 08:26:21.770,,EVENT,Auto imaging. Index = 329:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/329.jpg
+SWCDH,2018-08-26 08:26:21.770,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/329.jpg
+SWCDH,2018-08-26 08:28:21.794,,EVENT,Auto imaging. Index = 330:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/330.jpg
+SWCDH,2018-08-26 08:28:21.794,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/330.jpg
+SWCDH,2018-08-26 08:28:21.794,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/330.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 08:28:21.794,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/330.jpg
+SWCDH,2018-08-26 08:30:21.798,,EVENT,Auto imaging. Index = 331:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/331.jpg
+SWCDH,2018-08-26 08:30:21.798,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/331.jpg
+SWCDH,2018-08-26 08:32:21.829,,EVENT,Auto imaging. Index = 332:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/332.jpg
+SWCDH,2018-08-26 08:32:21.829,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/332.jpg
+SWCDH,2018-08-26 08:32:21.829,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/332.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 08:32:21.829,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/332.jpg
+SWCDH,2018-08-26 08:34:21.870,,EVENT,Auto imaging. Index = 333:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/333.jpg
+SWCDH,2018-08-26 08:34:21.870,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/333.jpg
+SWCDH,2018-08-26 08:36:21.891,,EVENT,Auto imaging. Index = 334:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/334.jpg
+SWCDH,2018-08-26 08:36:21.891,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/334.jpg
+SWCDH,2018-08-26 08:36:21.891,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/334.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 08:36:21.891,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/334.jpg
+SWCDH,2018-08-26 08:38:21.950,,EVENT,Auto imaging. Index = 335:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/335.jpg
+SWCDH,2018-08-26 08:38:21.950,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/335.jpg
+SWCDH,2018-08-26 08:40:21.973,,EVENT,Auto imaging. Index = 336:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/336.jpg
+SWCDH,2018-08-26 08:40:21.973,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/336.jpg
+SWCDH,2018-08-26 08:40:21.973,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/336.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 08:40:21.973,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/336.jpg
+SWCDH,2018-08-26 08:42:22.010,,EVENT,Auto imaging. Index = 337:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/337.jpg
+SWCDH,2018-08-26 08:42:22.010,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/337.jpg
+SWCDH,2018-08-26 08:44:22.031,,EVENT,Auto imaging. Index = 338:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/338.jpg
+SWCDH,2018-08-26 08:44:22.031,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/338.jpg
+SWCDH,2018-08-26 08:44:22.031,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/338.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 08:44:22.031,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/338.jpg
+SWCDH,2018-08-26 08:46:22.048,,EVENT,Auto imaging. Index = 339:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/339.jpg
+SWCDH,2018-08-26 08:46:22.048,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/339.jpg
+SWCDH,2018-08-26 08:48:22.066,,EVENT,Auto imaging. Index = 340:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/340.jpg
+SWCDH,2018-08-26 08:48:22.066,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/340.jpg
+SWCDH,2018-08-26 08:48:22.066,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/340.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 08:48:22.066,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/340.jpg
+SWCDH,2018-08-26 08:50:22.074,,EVENT,Auto imaging. Index = 341:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/341.jpg
+SWCDH,2018-08-26 08:50:22.074,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/341.jpg
+SWCDH,2018-08-26 08:52:22.102,,EVENT,Auto imaging. Index = 342:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/342.jpg
+SWCDH,2018-08-26 08:52:22.102,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/342.jpg
+SWCDH,2018-08-26 08:52:22.102,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/342.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 08:52:22.102,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/342.jpg
+SWCDH,2018-08-26 08:54:22.103,,EVENT,Auto imaging. Index = 343:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/343.jpg
+SWCDH,2018-08-26 08:54:22.103,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/343.jpg
+SWCDH,2018-08-26 08:56:22.142,,EVENT,Auto imaging. Index = 344:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/344.jpg
+SWCDH,2018-08-26 08:56:22.142,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/344.jpg
+SWCDH,2018-08-26 08:56:22.142,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/344.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 08:56:22.142,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/344.jpg
+SWCDH,2018-08-26 08:58:22.161,,EVENT,Auto imaging. Index = 345:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/345.jpg
+SWCDH,2018-08-26 08:58:22.161,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/345.jpg
+SWCDH,2018-08-26 09:00:22.174,,EVENT,Auto imaging. Index = 346:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/346.jpg
+SWCDH,2018-08-26 09:00:22.174,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/346.jpg
+SWCDH,2018-08-26 09:00:22.174,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/346.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 09:00:22.174,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/346.jpg
+SWCDH,2018-08-26 09:02:22.208,,EVENT,Auto imaging. Index = 347:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/347.jpg
+SWCDH,2018-08-26 09:02:22.208,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/347.jpg
+SWCDH,2018-08-26 09:03:04.031,,EVENT,Auto imaging. Index = 348:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -t 2000 -o /mnt/ssd/swcdh/pictures/348.jpg
+SWCDH,2018-08-26 09:03:04.031,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -t 2000 -o /mnt/ssd/swcdh/pictures/348.jpg
+SWCDH,2018-08-26 09:03:04.031,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/348.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 09:03:04.031,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex sport -t 2000 -o /mnt/ssd/swcdh/pictures/large/348.jpg
+SWCDH,2018-08-26 09:04:43.102,,EVENT,Auto imaging. Index = 349:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/349.jpg
+SWCDH,2018-08-26 09:04:43.102,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/large/349.jpg
+SWCDH,2018-08-26 09:05:09.016,,EVENT,Auto imaging. Index = 350:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/350.jpg
+SWCDH,2018-08-26 09:05:09.016,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/350.jpg
+SWCDH,2018-08-26 09:05:09.016,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/350.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 09:05:09.016,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/large/350.jpg
+SWCDH,2018-08-26 09:07:09.073,,EVENT,Auto imaging. Index = 351:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/351.jpg
+SWCDH,2018-08-26 09:07:09.073,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/large/351.jpg
+SWCDH,2018-08-26 09:09:09.103,,EVENT,Auto imaging. Index = 352:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/352.jpg
+SWCDH,2018-08-26 09:09:09.103,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/352.jpg
+SWCDH,2018-08-26 09:09:09.103,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/352.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 09:09:09.103,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/large/352.jpg
+SWCDH,2018-08-26 09:11:09.122,,EVENT,Auto imaging. Index = 353:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/353.jpg
+SWCDH,2018-08-26 09:11:09.122,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/large/353.jpg
+SWCDH,2018-08-26 09:13:09.151,,EVENT,Auto imaging. Index = 354:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/354.jpg
+SWCDH,2018-08-26 09:13:09.151,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/354.jpg
+SWCDH,2018-08-26 09:13:09.151,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/354.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 09:13:09.151,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/large/354.jpg
+SWCDH,2018-08-26 09:15:09.169,,EVENT,Auto imaging. Index = 355:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/355.jpg
+SWCDH,2018-08-26 09:15:09.169,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/large/355.jpg
+SWCDH,2018-08-26 09:17:09.218,,EVENT,Auto imaging. Index = 356:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/356.jpg
+SWCDH,2018-08-26 09:17:09.218,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/356.jpg
+SWCDH,2018-08-26 09:17:09.218,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/356.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 09:17:09.218,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/large/356.jpg
+SWCDH,2018-08-26 09:19:09.252,,EVENT,Auto imaging. Index = 357:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/357.jpg
+SWCDH,2018-08-26 09:19:09.252,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/large/357.jpg
+SWCDH,2018-08-26 09:21:09.293,,EVENT,Auto imaging. Index = 358:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/358.jpg
+SWCDH,2018-08-26 09:21:09.293,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/358.jpg
+SWCDH,2018-08-26 09:21:09.293,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/358.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 09:21:09.293,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/large/358.jpg
+SWCDH,2018-08-26 09:23:09.307,,EVENT,Auto imaging. Index = 359:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/359.jpg
+SWCDH,2018-08-26 09:23:09.307,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/large/359.jpg
+SWCDH,2018-08-26 09:25:09.345,,EVENT,Auto imaging. Index = 360:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/360.jpg
+SWCDH,2018-08-26 09:25:09.345,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/360.jpg
+SWCDH,2018-08-26 09:25:09.345,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/360.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 09:25:09.345,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/large/360.jpg
+SWCDH,2018-08-26 09:27:09.370,,EVENT,Auto imaging. Index = 361:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/361.jpg
+SWCDH,2018-08-26 09:27:09.370,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/large/361.jpg
+SWCDH,2018-08-26 09:29:09.392,,EVENT,Auto imaging. Index = 362:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/362.jpg
+SWCDH,2018-08-26 09:29:09.392,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/362.jpg
+SWCDH,2018-08-26 09:29:09.392,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/362.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 09:29:09.392,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/large/362.jpg
+SWCDH,2018-08-26 09:31:09.416,,EVENT,Auto imaging. Index = 363:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/363.jpg
+SWCDH,2018-08-26 09:31:09.416,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/large/363.jpg
+SWCDH,2018-08-26 09:33:09.431,,EVENT,Auto imaging. Index = 364:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/364.jpg
+SWCDH,2018-08-26 09:33:09.431,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/364.jpg
+SWCDH,2018-08-26 09:33:09.431,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/364.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 09:33:09.431,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/large/364.jpg
+SWCDH,2018-08-26 09:35:09.494,,EVENT,Auto imaging. Index = 365:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/365.jpg
+SWCDH,2018-08-26 09:35:09.494,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/large/365.jpg
+SWCDH,2018-08-26 09:37:09.515,,EVENT,Auto imaging. Index = 366:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/366.jpg
+SWCDH,2018-08-26 09:37:09.515,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/366.jpg
+SWCDH,2018-08-26 09:37:09.515,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/366.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 09:37:09.515,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex sport -ISO 100 -t 2000 -o /mnt/ssd/swcdh/pictures/large/366.jpg
+SWCDH,2018-08-26 09:39:09.528,,EVENT,Auto imaging. Index = 367:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/367.jpg
+SWCDH,2018-08-26 09:39:09.528,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/367.jpg
+SWCDH,2018-08-26 09:41:09.538,,EVENT,Auto imaging. Index = 368:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/368.jpg
+SWCDH,2018-08-26 09:41:09.538,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/368.jpg
+SWCDH,2018-08-26 09:41:09.538,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/368.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 09:41:09.538,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/368.jpg
+SWCDH,2018-08-26 09:43:09.541,,EVENT,Auto imaging. Index = 369:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/369.jpg
+SWCDH,2018-08-26 09:43:09.541,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/369.jpg
+SWCDH,2018-08-26 09:45:09.569,,EVENT,Auto imaging. Index = 370:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/370.jpg
+SWCDH,2018-08-26 09:45:09.569,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/370.jpg
+SWCDH,2018-08-26 09:45:09.569,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/370.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 09:45:09.569,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/370.jpg
+SWCDH,2018-08-26 09:47:09.594,,EVENT,Auto imaging. Index = 371:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/371.jpg
+SWCDH,2018-08-26 09:47:09.594,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/371.jpg
+SWCDH,2018-08-26 09:49:09.607,,EVENT,Auto imaging. Index = 372:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/372.jpg
+SWCDH,2018-08-26 09:49:09.607,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/372.jpg
+SWCDH,2018-08-26 09:49:09.607,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/372.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 09:49:09.607,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/372.jpg
+SWCDH,2018-08-26 09:51:09.641,,EVENT,Auto imaging. Index = 373:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ISO 800 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/373.jpg
+SWCDH,2018-08-26 09:51:09.641,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ISO 800 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/373.jpg
+SWCDH,2018-08-26 09:53:09.682,,EVENT,Auto imaging. Index = 374:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/374.jpg
+SWCDH,2018-08-26 09:53:09.682,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/374.jpg
+SWCDH,2018-08-26 09:53:09.682,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/374.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 09:53:09.682,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/374.jpg
+SWCDH,2018-08-26 09:55:09.713,,EVENT,Auto imaging. Index = 375:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/375.jpg
+SWCDH,2018-08-26 09:55:09.713,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/375.jpg
+SWCDH,2018-08-26 09:56:50.075,,EVENT,Auto imaging. Index = 376:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex verylong -t 2000 -o /mnt/ssd/swcdh/pictures/376.jpg
+SWCDH,2018-08-26 09:56:50.075,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex verylong -t 2000 -o /mnt/ssd/swcdh/pictures/376.jpg
+SWCDH,2018-08-26 09:56:50.075,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/376.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 09:56:50.075,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex verylong -t 2000 -o /mnt/ssd/swcdh/pictures/large/376.jpg
+SWCDH,2018-08-26 09:58:13.362,,EVENT,Auto imaging. Index = 377:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex verylong -t 2000 -o /mnt/ssd/swcdh/pictures/377.jpg
+SWCDH,2018-08-26 09:58:13.362,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex verylong -t 2000 -o /mnt/ssd/swcdh/pictures/large/377.jpg
+SWCDH,2018-08-26 09:59:22.447,,EVENT,Auto imaging. Index = 378:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/378.jpg
+SWCDH,2018-08-26 09:59:22.447,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/378.jpg
+SWCDH,2018-08-26 09:59:22.447,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/378.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 09:59:22.447,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -ex verylong -drc high -t 2000 -o /mnt/ssd/swcdh/pictures/large/378.jpg
+SWCDH,2018-08-26 10:01:22.488,,EVENT,Auto imaging. Index = 379:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/379.jpg
+SWCDH,2018-08-26 10:01:22.488,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/379.jpg
+SWCDH,2018-08-26 10:03:22.492,,EVENT,Auto imaging. Index = 380:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/380.jpg
+SWCDH,2018-08-26 10:03:22.492,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/380.jpg
+SWCDH,2018-08-26 10:03:22.492,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/380.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 10:03:22.492,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/380.jpg
+SWCDH,2018-08-26 10:05:22.528,,EVENT,Auto imaging. Index = 381:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/381.jpg
+SWCDH,2018-08-26 10:05:22.528,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/381.jpg
+SWCDH,2018-08-26 10:06:14.293,,EVENT,Auto imaging. Index = 382:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/382.jpg
+SWCDH,2018-08-26 10:06:14.293,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/382.jpg
+SWCDH,2018-08-26 10:06:14.293,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/382.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 10:06:14.293,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/382.jpg
+SWCDH,2018-08-26 10:07:08.359,,EVENT,Auto imaging. Index = 383:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/383.jpg
+SWCDH,2018-08-26 10:07:08.359,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/383.jpg
+SWCDH,2018-08-26 10:08:24.337,,EVENT,Auto imaging. Index = 384:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/384.jpg
+SWCDH,2018-08-26 10:08:24.337,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/384.jpg
+SWCDH,2018-08-26 10:08:24.337,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/384.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 10:08:24.337,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/384.jpg
+SWCDH,2018-08-26 10:09:51.334,,EVENT,Auto imaging. Index = 385:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/385.jpg
+SWCDH,2018-08-26 10:09:51.334,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/385.jpg
+SWCDH,2018-08-26 10:10:54.164,,EVENT,Auto imaging. Index = 386:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/386.jpg
+SWCDH,2018-08-26 10:10:54.164,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/386.jpg
+SWCDH,2018-08-26 10:10:54.164,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/386.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 10:10:54.164,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/386.jpg
+SWCDH,2018-08-26 10:12:02.950,,EVENT,Auto imaging. Index = 387:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/387.jpg
+SWCDH,2018-08-26 10:12:02.950,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/387.jpg
+SWCDH,2018-08-26 10:13:23.384,,EVENT,Auto imaging. Index = 388:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/388.jpg
+SWCDH,2018-08-26 10:13:23.384,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/388.jpg
+SWCDH,2018-08-26 10:13:23.384,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/388.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 10:13:23.384,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/388.jpg
+SWCDH,2018-08-26 10:14:39.455,,EVENT,Auto imaging. Index = 389:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/389.jpg
+SWCDH,2018-08-26 10:14:39.455,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/389.jpg
+SWCDH,2018-08-26 10:16:15.724,,EVENT,Auto imaging. Index = 390:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/390.jpg
+SWCDH,2018-08-26 10:16:15.724,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/390.jpg
+SWCDH,2018-08-26 10:16:15.724,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/390.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 10:16:15.724,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/390.jpg
+SWCDH,2018-08-26 10:18:15.759,,EVENT,Auto imaging. Index = 391:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/391.jpg
+SWCDH,2018-08-26 10:18:15.759,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/391.jpg
+SWCDH,2018-08-26 10:20:15.780,,EVENT,Auto imaging. Index = 392:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/392.jpg
+SWCDH,2018-08-26 10:20:15.780,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/392.jpg
+SWCDH,2018-08-26 10:20:15.780,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/392.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 10:20:15.780,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/392.jpg
+SWCDH,2018-08-26 10:22:15.804,,EVENT,Auto imaging. Index = 393:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/393.jpg
+SWCDH,2018-08-26 10:22:15.804,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/393.jpg
+SWCDH,2018-08-26 10:24:15.822,,EVENT,Auto imaging. Index = 394:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/394.jpg
+SWCDH,2018-08-26 10:24:15.822,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/394.jpg
+SWCDH,2018-08-26 10:24:15.822,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/394.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 10:24:15.822,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/394.jpg
+SWCDH,2018-08-26 10:26:15.874,,EVENT,Auto imaging. Index = 395:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/395.jpg
+SWCDH,2018-08-26 10:26:15.874,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/395.jpg
+SWCDH,2018-08-26 10:28:15.925,,EVENT,Auto imaging. Index = 396:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/396.jpg
+SWCDH,2018-08-26 10:28:15.925,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/396.jpg
+SWCDH,2018-08-26 10:28:15.925,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/396.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 10:28:15.925,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/396.jpg
+SWCDH,2018-08-26 10:30:15.953,,EVENT,Auto imaging. Index = 397:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/397.jpg
+SWCDH,2018-08-26 10:30:15.953,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/397.jpg
+SWCDH,2018-08-26 10:32:16.046,,EVENT,Auto imaging. Index = 398:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/398.jpg
+SWCDH,2018-08-26 10:32:16.046,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/398.jpg
+SWCDH,2018-08-26 10:32:16.046,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/398.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 10:32:16.046,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/398.jpg
+SWCDH,2018-08-26 10:34:16.071,,EVENT,Auto imaging. Index = 399:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/399.jpg
+SWCDH,2018-08-26 10:34:16.071,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/399.jpg
+SWCDH,2018-08-26 10:36:16.074,,EVENT,Auto imaging. Index = 400:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/400.jpg
+SWCDH,2018-08-26 10:36:16.074,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/400.jpg
+SWCDH,2018-08-26 10:36:16.074,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/400.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 10:36:16.074,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/400.jpg
+SWCDH,2018-08-26 10:38:16.093,,EVENT,Auto imaging. Index = 401:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/401.jpg
+SWCDH,2018-08-26 10:38:16.093,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/401.jpg
+SWCDH,2018-08-26 10:40:16.120,,EVENT,Auto imaging. Index = 402:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/402.jpg
+SWCDH,2018-08-26 10:40:16.120,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/402.jpg
+SWCDH,2018-08-26 10:40:16.120,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/402.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 10:40:16.120,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/402.jpg
+SWCDH,2018-08-26 10:42:16.146,,EVENT,Auto imaging. Index = 403:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/403.jpg
+SWCDH,2018-08-26 10:42:16.146,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/403.jpg
+SWCDH,2018-08-26 10:44:16.174,,EVENT,Auto imaging. Index = 404:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/404.jpg
+SWCDH,2018-08-26 10:44:16.174,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/404.jpg
+SWCDH,2018-08-26 10:44:16.174,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/404.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 10:44:16.174,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/404.jpg
+SWCDH,2018-08-26 10:46:16.202,,EVENT,Auto imaging. Index = 405:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/405.jpg
+SWCDH,2018-08-26 10:46:16.202,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/405.jpg
+SWCDH,2018-08-26 10:48:16.265,,EVENT,Auto imaging. Index = 406:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/406.jpg
+SWCDH,2018-08-26 10:48:16.265,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/406.jpg
+SWCDH,2018-08-26 10:48:16.265,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/406.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 10:48:16.265,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/406.jpg
+SWCDH,2018-08-26 10:50:16.297,,EVENT,Auto imaging. Index = 407:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/407.jpg
+SWCDH,2018-08-26 10:50:16.297,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/407.jpg
+SWCDH,2018-08-26 10:52:16.329,,EVENT,Auto imaging. Index = 408:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/408.jpg
+SWCDH,2018-08-26 10:52:16.329,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/408.jpg
+SWCDH,2018-08-26 10:52:16.329,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/408.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 10:52:16.329,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/408.jpg
+SWCDH,2018-08-26 10:54:16.381,,EVENT,Auto imaging. Index = 409:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/409.jpg
+SWCDH,2018-08-26 10:54:16.381,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/409.jpg
+SWCDH,2018-08-26 10:56:16.420,,EVENT,Auto imaging. Index = 410:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/410.jpg
+SWCDH,2018-08-26 10:56:16.420,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/410.jpg
+SWCDH,2018-08-26 10:56:16.420,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/410.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 10:56:16.420,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/410.jpg
+SWCDH,2018-08-26 10:58:16.452,,EVENT,Auto imaging. Index = 411:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/411.jpg
+SWCDH,2018-08-26 10:58:16.452,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/411.jpg
+SWCDH,2018-08-26 11:00:16.492,,EVENT,Auto imaging. Index = 412:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/412.jpg
+SWCDH,2018-08-26 11:00:16.492,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/412.jpg
+SWCDH,2018-08-26 11:00:16.492,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/412.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 11:00:16.492,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/412.jpg
+SWCDH,2018-08-26 11:02:16.530,,EVENT,Auto imaging. Index = 413:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/413.jpg
+SWCDH,2018-08-26 11:02:16.530,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/413.jpg
+SWCDH,2018-08-26 11:04:16.587,,EVENT,Auto imaging. Index = 414:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/414.jpg
+SWCDH,2018-08-26 11:04:16.587,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/414.jpg
+SWCDH,2018-08-26 11:04:16.587,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/414.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 11:04:16.587,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/414.jpg
+SWCDH,2018-08-26 11:06:16.614,,EVENT,Auto imaging. Index = 415:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/415.jpg
+SWCDH,2018-08-26 11:06:16.614,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/415.jpg
+SWCDH,2018-08-26 11:08:16.655,,EVENT,Auto imaging. Index = 416:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/416.jpg
+SWCDH,2018-08-26 11:08:16.655,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/416.jpg
+SWCDH,2018-08-26 11:08:16.655,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/416.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 11:08:16.655,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/416.jpg
+SWCDH,2018-08-26 11:10:16.688,,EVENT,Auto imaging. Index = 417:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/417.jpg
+SWCDH,2018-08-26 11:10:16.688,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/417.jpg
+SWCDH,2018-08-26 11:12:16.703,,EVENT,Auto imaging. Index = 418:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/418.jpg
+SWCDH,2018-08-26 11:12:16.703,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/418.jpg
+SWCDH,2018-08-26 11:12:16.703,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/418.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 11:12:16.703,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/418.jpg
+SWCDH,2018-08-26 11:14:16.705,,EVENT,Auto imaging. Index = 419:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/419.jpg
+SWCDH,2018-08-26 11:14:16.705,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/419.jpg
+SWCDH,2018-08-26 11:16:16.745,,EVENT,Auto imaging. Index = 420:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/420.jpg
+SWCDH,2018-08-26 11:16:16.745,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/420.jpg
+SWCDH,2018-08-26 11:16:16.745,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/420.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 11:16:16.745,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/420.jpg
+SWCDH,2018-08-26 11:18:16.783,,EVENT,Auto imaging. Index = 421:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/421.jpg
+SWCDH,2018-08-26 11:18:16.783,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/421.jpg
+SWCDH,2018-08-26 11:20:16.811,,EVENT,Auto imaging. Index = 422:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/422.jpg
+SWCDH,2018-08-26 11:20:16.811,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/422.jpg
+SWCDH,2018-08-26 11:20:16.811,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/422.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 11:20:16.811,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/422.jpg
+SWCDH,2018-08-26 11:22:16.817,,EVENT,Auto imaging. Index = 423:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/423.jpg
+SWCDH,2018-08-26 11:22:16.817,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/423.jpg
+SWCDH,2018-08-26 11:24:16.845,,EVENT,Auto imaging. Index = 424:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/424.jpg
+SWCDH,2018-08-26 11:24:16.845,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/424.jpg
+SWCDH,2018-08-26 11:24:16.845,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/424.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 11:24:16.845,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/424.jpg
+SWCDH,2018-08-26 11:26:16.867,,EVENT,Auto imaging. Index = 425:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/425.jpg
+SWCDH,2018-08-26 11:26:16.867,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/425.jpg
+SWCDH,2018-08-26 11:28:16.881,,EVENT,Auto imaging. Index = 426:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/426.jpg
+SWCDH,2018-08-26 11:28:16.881,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/426.jpg
+SWCDH,2018-08-26 11:28:16.881,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/426.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 11:28:16.881,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/426.jpg
+SWCDH,2018-08-26 11:30:16.925,,EVENT,Auto imaging. Index = 427:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/427.jpg
+SWCDH,2018-08-26 11:30:16.925,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/427.jpg
+SWCDH,2018-08-26 11:32:16.952,,EVENT,Auto imaging. Index = 428:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/428.jpg
+SWCDH,2018-08-26 11:32:16.952,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/428.jpg
+SWCDH,2018-08-26 11:32:16.952,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/428.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 11:32:16.952,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/428.jpg
+SWCDH,2018-08-26 11:34:16.971,,EVENT,Auto imaging. Index = 429:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/429.jpg
+SWCDH,2018-08-26 11:34:16.971,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/429.jpg
+SWCDH,2018-08-26 11:36:17.002,,EVENT,Auto imaging. Index = 430:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/430.jpg
+SWCDH,2018-08-26 11:36:17.002,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/430.jpg
+SWCDH,2018-08-26 11:36:17.002,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/430.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 11:36:17.002,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/430.jpg
+SWCDH,2018-08-26 11:38:17.028,,EVENT,Auto imaging. Index = 431:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/431.jpg
+SWCDH,2018-08-26 11:38:17.028,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/431.jpg
+SWCDH,2018-08-26 11:40:17.058,,EVENT,Auto imaging. Index = 432:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/432.jpg
+SWCDH,2018-08-26 11:40:17.058,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/432.jpg
+SWCDH,2018-08-26 11:40:17.058,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/432.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 11:40:17.058,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/432.jpg
+SWCDH,2018-08-26 11:50:14.000,,EVENT,Auto imaging. Index = 433:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/433.jpg
+SWCDH,2018-08-26 11:50:14.000,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/433.jpg
+SWCDH,2018-08-26 11:52:14.016,,EVENT,Auto imaging. Index = 434:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/434.jpg
+SWCDH,2018-08-26 11:52:14.016,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/434.jpg
+SWCDH,2018-08-26 11:52:14.016,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/434.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 11:52:14.016,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/434.jpg
+SWCDH,2018-08-26 11:54:14.046,,EVENT,Auto imaging. Index = 435:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/435.jpg
+SWCDH,2018-08-26 11:54:14.046,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/435.jpg
+SWCDH,2018-08-26 11:56:14.069,,EVENT,Auto imaging. Index = 436:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/436.jpg
+SWCDH,2018-08-26 11:56:14.069,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/436.jpg
+SWCDH,2018-08-26 11:56:14.069,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/436.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 11:56:14.069,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/436.jpg
+SWCDH,2018-08-26 11:58:14.110,,EVENT,Auto imaging. Index = 437:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/437.jpg
+SWCDH,2018-08-26 11:58:14.110,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/437.jpg
+SWCDH,2018-08-26 12:00:14.118,,EVENT,Auto imaging. Index = 438:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/438.jpg
+SWCDH,2018-08-26 12:00:14.118,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/438.jpg
+SWCDH,2018-08-26 12:00:14.118,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/438.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 12:00:14.118,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/438.jpg
+SWCDH,2018-08-26 12:02:14.159,,EVENT,Auto imaging. Index = 439:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/439.jpg
+SWCDH,2018-08-26 12:02:14.159,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/439.jpg
+SWCDH,2018-08-26 12:04:14.186,,EVENT,Auto imaging. Index = 440:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/440.jpg
+SWCDH,2018-08-26 12:04:14.186,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/440.jpg
+SWCDH,2018-08-26 12:04:14.186,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/440.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 12:04:14.186,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/440.jpg
+SWCDH,2018-08-26 12:06:14.202,,EVENT,Auto imaging. Index = 441:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/441.jpg
+SWCDH,2018-08-26 12:06:14.202,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/441.jpg
+SWCDH,2018-08-26 12:08:14.233,,EVENT,Auto imaging. Index = 442:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/442.jpg
+SWCDH,2018-08-26 12:08:14.233,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/442.jpg
+SWCDH,2018-08-26 12:08:14.233,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/442.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 12:08:14.233,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/442.jpg
+SWCDH,2018-08-26 12:10:14.270,,EVENT,Auto imaging. Index = 443:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/443.jpg
+SWCDH,2018-08-26 12:10:14.270,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/443.jpg
+SWCDH,2018-08-26 12:12:14.307,,EVENT,Auto imaging. Index = 444:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/444.jpg
+SWCDH,2018-08-26 12:12:14.307,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/444.jpg
+SWCDH,2018-08-26 12:12:14.307,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/444.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 12:12:14.307,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/444.jpg
+SWCDH,2018-08-26 12:14:14.339,,EVENT,Auto imaging. Index = 445:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/445.jpg
+SWCDH,2018-08-26 12:14:14.339,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/445.jpg
+SWCDH,2018-08-26 12:17:20.705,,EVENT,Auto imaging. Index = 446:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/446.jpg
+SWCDH,2018-08-26 12:17:20.705,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/446.jpg
+SWCDH,2018-08-26 12:17:20.705,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/446.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 12:17:20.705,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/446.jpg
+SWCDH,2018-08-26 12:19:20.720,,EVENT,Auto imaging. Index = 447:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/447.jpg
+SWCDH,2018-08-26 12:19:20.720,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/447.jpg
+SWCDH,2018-08-26 12:21:20.750,,EVENT,Auto imaging. Index = 448:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/448.jpg
+SWCDH,2018-08-26 12:21:20.750,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/448.jpg
+SWCDH,2018-08-26 12:21:20.750,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/448.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 12:21:20.750,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/448.jpg
+SWCDH,2018-08-26 12:23:21.003,,EVENT,Auto imaging. Index = 449:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/449.jpg
+SWCDH,2018-08-26 12:23:21.003,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/449.jpg
+SWCDH,2018-08-26 12:25:21.042,,EVENT,Auto imaging. Index = 450:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/450.jpg
+SWCDH,2018-08-26 12:25:21.042,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/450.jpg
+SWCDH,2018-08-26 12:25:21.042,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/450.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 12:25:21.042,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/450.jpg
+SWCDH,2018-08-26 12:27:21.074,,EVENT,Auto imaging. Index = 451:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/451.jpg
+SWCDH,2018-08-26 12:27:21.074,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/451.jpg
+SWCDH,2018-08-26 12:29:21.358,,EVENT,Auto imaging. Index = 452:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/452.jpg
+SWCDH,2018-08-26 12:29:21.358,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/452.jpg
+SWCDH,2018-08-26 12:29:21.358,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/452.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 12:29:21.358,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/452.jpg
+SWCDH,2018-08-26 12:31:31.943,,EVENT,Auto imaging. Index = 453:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/453.jpg
+SWCDH,2018-08-26 12:31:31.943,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/453.jpg
+SWCDH,2018-08-26 12:33:31.985,,EVENT,Auto imaging. Index = 454:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/454.jpg
+SWCDH,2018-08-26 12:33:31.985,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/454.jpg
+SWCDH,2018-08-26 12:33:31.985,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/454.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 12:33:31.985,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/454.jpg
+SWCDH,2018-08-26 12:35:32.017,,EVENT,Auto imaging. Index = 455:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/455.jpg
+SWCDH,2018-08-26 12:35:32.017,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/455.jpg
+SWCDH,2018-08-26 12:37:32.385,,EVENT,Auto imaging. Index = 456:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/456.jpg
+SWCDH,2018-08-26 12:37:32.385,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/456.jpg
+SWCDH,2018-08-26 12:37:32.385,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/456.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 12:37:32.385,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/456.jpg
+SWCDH,2018-08-26 12:39:32.407,,EVENT,Auto imaging. Index = 457:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/457.jpg
+SWCDH,2018-08-26 12:39:32.407,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/457.jpg
+SWCDH,2018-08-26 12:41:32.409,,EVENT,Auto imaging. Index = 458:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/458.jpg
+SWCDH,2018-08-26 12:41:32.409,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/458.jpg
+SWCDH,2018-08-26 12:41:32.409,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/458.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 12:41:32.409,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/458.jpg
+SWCDH,2018-08-26 12:43:32.433,,EVENT,Auto imaging. Index = 459:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/459.jpg
+SWCDH,2018-08-26 12:43:32.433,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/459.jpg
+SWCDH,2018-08-26 12:45:32.469,,EVENT,Auto imaging. Index = 460:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/460.jpg
+SWCDH,2018-08-26 12:45:32.469,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/460.jpg
+SWCDH,2018-08-26 12:45:32.469,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/460.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 12:45:32.469,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/460.jpg
+SWCDH,2018-08-26 12:47:32.502,,EVENT,Auto imaging. Index = 461:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/461.jpg
+SWCDH,2018-08-26 12:47:32.502,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/461.jpg
+SWCDH,2018-08-26 12:52:15.471,,EVENT,Auto imaging. Index = 462:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/462.jpg
+SWCDH,2018-08-26 12:52:15.471,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/462.jpg
+SWCDH,2018-08-26 12:52:15.471,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/462.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 12:52:15.471,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/462.jpg
+SWCDH,2018-08-26 12:54:15.473,,EVENT,Auto imaging. Index = 463:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/463.jpg
+SWCDH,2018-08-26 12:54:15.473,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/463.jpg
+SWCDH,2018-08-26 12:56:15.512,,EVENT,Auto imaging. Index = 464:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/464.jpg
+SWCDH,2018-08-26 12:56:15.512,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/464.jpg
+SWCDH,2018-08-26 12:56:15.512,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/464.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 12:56:15.512,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/464.jpg
+SWCDH,2018-08-26 12:58:15.535,,EVENT,Auto imaging. Index = 465:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/465.jpg
+SWCDH,2018-08-26 12:58:15.535,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/465.jpg
+SWCDH,2018-08-26 13:00:15.546,,EVENT,Auto imaging. Index = 466:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/466.jpg
+SWCDH,2018-08-26 13:00:15.546,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/466.jpg
+SWCDH,2018-08-26 13:00:15.546,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/466.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 13:00:15.546,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/466.jpg
+SWCDH,2018-08-26 13:02:15.562,,EVENT,Auto imaging. Index = 467:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/467.jpg
+SWCDH,2018-08-26 13:02:15.562,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/467.jpg
+SWCDH,2018-08-26 13:04:15.585,,EVENT,Auto imaging. Index = 468:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/468.jpg
+SWCDH,2018-08-26 13:04:15.585,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/468.jpg
+SWCDH,2018-08-26 13:04:15.585,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/468.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 13:04:15.585,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/468.jpg
+SWCDH,2018-08-26 13:06:15.607,,EVENT,Auto imaging. Index = 469:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/469.jpg
+SWCDH,2018-08-26 13:06:15.607,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/469.jpg
+SWCDH,2018-08-26 13:08:15.644,,EVENT,Auto imaging. Index = 470:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/470.jpg
+SWCDH,2018-08-26 13:08:15.644,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/470.jpg
+SWCDH,2018-08-26 13:08:15.644,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/470.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 13:08:15.644,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/470.jpg
+SWCDH,2018-08-26 13:10:15.670,,EVENT,Auto imaging. Index = 471:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/471.jpg
+SWCDH,2018-08-26 13:10:15.670,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/471.jpg
+SWCDH,2018-08-26 13:12:15.697,,EVENT,Auto imaging. Index = 472:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/472.jpg
+SWCDH,2018-08-26 13:12:15.697,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/472.jpg
+SWCDH,2018-08-26 13:12:15.697,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/472.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 13:12:15.697,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/472.jpg
+SWCDH,2018-08-26 13:14:15.732,,EVENT,Auto imaging. Index = 473:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/473.jpg
+SWCDH,2018-08-26 13:14:15.732,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/473.jpg
+SWCDH,2018-08-26 13:16:15.746,,EVENT,Auto imaging. Index = 474:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/474.jpg
+SWCDH,2018-08-26 13:16:15.746,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/474.jpg
+SWCDH,2018-08-26 13:16:15.746,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/474.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 13:16:15.746,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/474.jpg
+SWCDH,2018-08-26 13:18:15.759,,EVENT,Auto imaging. Index = 475:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/475.jpg
+SWCDH,2018-08-26 13:18:15.759,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/475.jpg
+SWCDH,2018-08-26 13:20:15.789,,EVENT,Auto imaging. Index = 476:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/476.jpg
+SWCDH,2018-08-26 13:20:15.789,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/476.jpg
+SWCDH,2018-08-26 13:20:15.789,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/476.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 13:20:15.789,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/476.jpg
+SWCDH,2018-08-26 13:22:15.827,,EVENT,Auto imaging. Index = 477:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/477.jpg
+SWCDH,2018-08-26 13:22:15.827,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/477.jpg
+SWCDH,2018-08-26 13:24:15.868,,EVENT,Auto imaging. Index = 478:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/478.jpg
+SWCDH,2018-08-26 13:24:15.868,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/478.jpg
+SWCDH,2018-08-26 13:24:15.868,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/478.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 13:24:15.868,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/478.jpg
+SWCDH,2018-08-26 13:26:15.880,,EVENT,Auto imaging. Index = 479:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/479.jpg
+SWCDH,2018-08-26 13:26:15.880,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/479.jpg
+SWCDH,2018-08-26 13:28:15.902,,EVENT,Auto imaging. Index = 480:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/480.jpg
+SWCDH,2018-08-26 13:28:15.902,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/480.jpg
+SWCDH,2018-08-26 13:28:15.902,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/480.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 13:28:15.902,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/480.jpg
+SWCDH,2018-08-26 13:30:15.939,,EVENT,Auto imaging. Index = 481:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/481.jpg
+SWCDH,2018-08-26 13:30:15.939,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/481.jpg
+SWCDH,2018-08-26 13:32:15.941,,EVENT,Auto imaging. Index = 482:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/482.jpg
+SWCDH,2018-08-26 13:32:15.941,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/482.jpg
+SWCDH,2018-08-26 13:32:15.941,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/482.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 13:32:15.941,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/482.jpg
+SWCDH,2018-08-26 13:34:15.962,,EVENT,Auto imaging. Index = 483:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/483.jpg
+SWCDH,2018-08-26 13:34:15.962,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/483.jpg
+SWCDH,2018-08-26 13:36:15.981,,EVENT,Auto imaging. Index = 484:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/484.jpg
+SWCDH,2018-08-26 13:36:15.981,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/484.jpg
+SWCDH,2018-08-26 13:36:15.981,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/484.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 13:36:15.981,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/484.jpg
+SWCDH,2018-08-26 13:38:15.984,,EVENT,Auto imaging. Index = 485:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/485.jpg
+SWCDH,2018-08-26 13:38:15.984,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/485.jpg
+SWCDH,2018-08-26 13:40:15.996,,EVENT,Auto imaging. Index = 486:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/486.jpg
+SWCDH,2018-08-26 13:40:15.996,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/486.jpg
+SWCDH,2018-08-26 13:40:15.996,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/486.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 13:40:15.996,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/486.jpg
+SWCDH,2018-08-26 13:42:16.054,,EVENT,Auto imaging. Index = 487:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/487.jpg
+SWCDH,2018-08-26 13:42:16.054,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/487.jpg
+SWCDH,2018-08-26 13:44:16.082,,EVENT,Auto imaging. Index = 488:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/488.jpg
+SWCDH,2018-08-26 13:44:16.082,,EVENT,Requesting image from NAVEM: ssh root@172.20.4.202 raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/488.jpg
+SWCDH,2018-08-26 13:44:16.082,,EVENT,Getting image from NAVEM: scp root@172.20.4.202:/mnt/ssd/swcdh/pictures/488.jpg /mnt/ssd/swcdh/pictures/
+SWCDH,2018-08-26 13:44:16.082,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/488.jpg
+SWCDH,2018-08-26 13:46:16.110,,EVENT,Auto imaging. Index = 489:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/489.jpg
+SWCDH,2018-08-26 13:46:16.110,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/489.jpg
+SWCDH,2018-08-26 13:48:16.155,,EVENT,Auto imaging. Index = 490:raspistill -n -vf -hf -w 1920 -h 1080 -q 10 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/490.jpg
+SWCDH,2018-08-26 13:48:16.155,,EVENT,Taking onboard image: raspistill -n -vf -hf -q 100 -a 12 -t 2000 -o /mnt/ssd/swcdh/pictures/large/490.jpg
+SWCDH,2018-08-26 13:49:23.487,,EVENT,EXITING PRISM_CDH SOFTWARE
