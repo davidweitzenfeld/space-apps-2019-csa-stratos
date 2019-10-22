@@ -1,7 +1,7 @@
 import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {combineLatest, merge, Observable, of, pipe, Subject} from 'rxjs';
-import {catchError, flatMap, map, switchMap, tap} from 'rxjs/operators';
+import {catchError, filter, map, switchMap, tap} from 'rxjs/operators';
 import * as geolib from 'geolib';
 
 export interface NavDataPoint {
@@ -244,7 +244,7 @@ export class DataService {
         ),
     )
       .pipe(
-        map(images => images.filter(image => image !== false) as Image[])
+        map(images => images.filter((image: Image | false) => image !== false && image.path.includes('data:image/jpeg')) as Image[])
       );
   }
 
