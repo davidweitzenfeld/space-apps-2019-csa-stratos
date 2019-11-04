@@ -1,52 +1,89 @@
 <mat-card id="info-card">
   <mat-card-header>
     <mat-card-title>CSA Strato Balloon Tracker</mat-card-title>
-    <mat-card-subtitle>Track & analyse one of CSA's stratospheric balloon flights, launched from Timmins in 2018.</mat-card-subtitle>
+    <mat-card-subtitle>Track & analyse one of CSA's stratospheric balloon flights, launched from Timmins in 2018.
+    </mat-card-subtitle>
     <mat-icon mat-card-avatar>track_changes</mat-icon>
   </mat-card-header>
   <mat-card-content style="display: flex; flex-direction: column">
     <mat-divider></mat-divider>
-    <div class="section-header">Position & Travel</div>
-    <div class="properties-list">
-      <div class="item">
-        <div class="name">Lon., lat. & alt.</div>
-        <div class="value">{{navigation?.longitude}}°, {{navigation?.latitude}}°, {{navigation?.altitude}} m</div>
-      </div>
-      <div class="item">
-        <div class="name">Distance from origin</div>
-        <div class="value">{{travel?.distanceFromOrigin| number : '.2-2' }} m</div>
-      </div>
-      <div class="item">
-        <div class="name">Distance travelled</div>
-        <div class="value">{{travel?.distanceTravelled | number : '.2-2' }} m</div>
-      </div>
-    </div>
+    <mat-expansion-panel class="mat-elevation-z0">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <div class="section-header">
+            Position & Travel
+          </div>
+        </mat-panel-title>
+        <mat-panel-description>
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <ng-template matExpansionPanelContent>
+        <div class="properties-list">
+          <div class="item">
+            <div class="name">Lon., lat. & alt.</div>
+            <div class="value">{{navigation?.longitude}}°, {{navigation?.latitude}}°, {{navigation?.altitude}} m</div>
+          </div>
+          <div class="item">
+            <div class="name">Distance from origin</div>
+            <div class="value">{{travel?.distanceFromOrigin| number : '.2-2' }} m</div>
+          </div>
+          <div class="item">
+            <div class="name">Distance travelled</div>
+            <div class="value">{{travel?.distanceTravelled | number : '.2-2' }} m</div>
+          </div>
+        </div>
+      </ng-template>
+    </mat-expansion-panel>
     <mat-divider></mat-divider>
-    <div class="section-header">Environmental Metrics</div>
-    <div class="properties-list">
-      <div class="item">
-        <div class="name">Int. & ext. temperature</div>
-        <div class="value">{{environment?.internalTemperature}}°C, {{environment?.externalTemperature}}°C</div>
-      </div>
-      <div class="item">
-        <div class="name">Rel. humidity</div>
-        <div class="value">{{environment?.relativeHumidity}}%</div>
-      </div>
-      <div class="item">
-        <div class="name">Ext. pressure</div>
-        <div class="value">{{environment?.externalPressure}} hPa</div>
-      </div>
-      <div class="item">
-        <div class="name">Dew point</div>
-        <div class="value">{{environment?.dewPoint}}°C</div>
-      </div>
-    </div>
+    <mat-expansion-panel class="mat-elevation-z0">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <div class="section-header">
+            Environmental Metrics
+          </div>
+        </mat-panel-title>
+        <mat-panel-description>
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <ng-template matExpansionPanelContent>
+        <div class="properties-list">
+          <div class="item">
+            <div class="name">Int. & ext. temperature</div>
+            <div class="value">{{environment?.internalTemperature}}°C, {{environment?.externalTemperature}}°C</div>
+          </div>
+          <div class="item">
+            <div class="name">Rel. humidity</div>
+            <div class="value">{{environment?.relativeHumidity}}%</div>
+          </div>
+          <div class="item">
+            <div class="name">Ext. pressure</div>
+            <div class="value">{{environment?.externalPressure}} hPa</div>
+          </div>
+          <div class="item">
+            <div class="name">Dew point</div>
+            <div class="value">{{environment?.dewPoint}}°C</div>
+          </div>
+        </div>
+      </ng-template>
+    </mat-expansion-panel>
     <mat-divider></mat-divider>
-    <div class="section-header">Images</div>
-    <ng-container *ngFor="let image of images">
-      <div class="image-header">{{image.name}}</div>
-      <img *ngIf="image.image" class="image" [src]="image.image" alt="Image" (click)="imageSelected.emit(image)">
-      <div *ngIf="!image.image" class="image" (click)="imageSelected.emit(image)"></div>
-    </ng-container>
+    <mat-expansion-panel class="mat-elevation-z0">
+      <mat-expansion-panel-header>
+        <mat-panel-title>
+          <div class="section-header">
+            Images
+          </div>
+        </mat-panel-title>
+        <mat-panel-description>
+        </mat-panel-description>
+      </mat-expansion-panel-header>
+      <ng-template matExpansionPanelContent>
+        <ng-container *ngFor="let image of images">
+          <div class="image-header">{{image.name}}</div>
+          <img *ngIf="image.image" class="image" [src]="image.image" alt="Image" (click)="imageSelected.emit(image)">
+          <div *ngIf="!image.image" class="image" (click)="imageSelected.emit(image)"></div>
+        </ng-container>
+      </ng-template>
+    </mat-expansion-panel>
   </mat-card-content>
 </mat-card>

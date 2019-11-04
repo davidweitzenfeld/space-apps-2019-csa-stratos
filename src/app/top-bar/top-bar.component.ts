@@ -1,4 +1,4 @@
-import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
+import {Component, EventEmitter, Input, OnChanges, OnInit, Output, SimpleChanges} from '@angular/core';
 import {ChartModel} from '../main-page/main-page.component';
 import {Chart} from 'highcharts';
 
@@ -7,7 +7,7 @@ import {Chart} from 'highcharts';
   templateUrl: './top-bar.component.html',
   styleUrls: ['./top-bar.component.scss']
 })
-export class TopBarComponent implements OnInit {
+export class TopBarComponent implements OnInit, OnChanges {
 
   @Input() isDataLoaded = false;
   @Input() isPlayback = false;
@@ -23,11 +23,18 @@ export class TopBarComponent implements OnInit {
 
   isChartExpanded = false;
   selectedChart?: ChartModel = this.charts[0];
+  areStartAndEndSameDay = false;
 
   constructor() {
   }
 
   ngOnInit() {
+  }
+
+  ngOnChanges(changes: SimpleChanges): void {
+    if (('startTime' in changes || 'endTime' in changes) && (this.startTime && this.endTime)) {
+      this.areStartAndEndSameDay = this.startTime.toLocaleDateString() === this.endTime.toLocaleDateString();
+    }
   }
 
   dateOf(time: number): Date {
