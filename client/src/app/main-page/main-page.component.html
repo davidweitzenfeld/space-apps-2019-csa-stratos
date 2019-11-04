@@ -48,3 +48,8 @@
   </app-image-preview>
 
 </ng-container>
+
+<div id="loading-overlay" *ngIf="!isDataLoaded">
+  <mat-spinner diameter="50"></mat-spinner>
+  <div class="loading-text">Loading...</div>
+</div>

@@ -24,6 +24,7 @@ import {TopBarComponent} from './top-bar/top-bar.component';
 import {ChartComponent} from './chart/chart.component';
 import {HighchartsChartModule} from 'highcharts-angular';
 import {ImagePreviewComponent} from './image-preview/image-preview.component';
+import {MatProgressSpinnerModule} from '@angular/material/progress-spinner';
 
 const routes: Routes = [
   {path: '', component: MainPageComponent}
@@ -39,26 +40,27 @@ const routes: Routes = [
     ChartComponent,
     ImagePreviewComponent,
   ],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    BrowserAnimationsModule,
-    RouterModule.forRoot(routes),
-    HttpClientModule,
-    NgxMapboxGLModule.withConfig({
-      accessToken: 'pk.eyJ1IjoiZGF2aWQtd2VpdHplbmZlbGQiLCJhIjoiY2sxeHpubW56MGkzbzNpbXQwYWp4OTJtNyJ9.b6xYmCYL-8ze28ptRvGrtw',
-    }),
-    MatCardModule,
-    MatSliderModule,
-    FormsModule,
-    MatButtonModule,
-    MatIconModule,
-    MatDividerModule,
-    HighchartsChartModule,
-    MatExpansionModule,
-    MatFormFieldModule,
-    MatSelectModule,
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        BrowserAnimationsModule,
+        RouterModule.forRoot(routes),
+        HttpClientModule,
+        NgxMapboxGLModule.withConfig({
+            accessToken: 'pk.eyJ1IjoiZGF2aWQtd2VpdHplbmZlbGQiLCJhIjoiY2sxeHpubW56MGkzbzNpbXQwYWp4OTJtNyJ9.b6xYmCYL-8ze28ptRvGrtw',
+        }),
+        MatCardModule,
+        MatSliderModule,
+        FormsModule,
+        MatButtonModule,
+        MatIconModule,
+        MatDividerModule,
+        HighchartsChartModule,
+        MatExpansionModule,
+        MatFormFieldModule,
+        MatSelectModule,
+        MatProgressSpinnerModule,
+    ],
   providers: [],
   bootstrap: [AppComponent]
 })

@@ -74,7 +74,7 @@ export class MainPageComponent implements OnInit {
       .pipe(
         auditTime(250)
       )
-      .subscribe(time => this.onTimeChange(time.getTime()))
+      .subscribe(time => this.onTimeChange(time.getTime()));
   }
 
   onDataLoaded() {
@@ -96,11 +96,11 @@ export class MainPageComponent implements OnInit {
     this.images = [
       {
         name: 'HORIZON',
-        image: horizonImage ? "data:image/jpeg;base64," + horizonImage.image : undefined,
+        image: horizonImage ? 'data:image/jpeg;base64,' + horizonImage.image : undefined,
       },
       {
         name: 'NADIR',
-        image: nadirImage ? "data:image/jpeg;base64," + nadirImage.image : undefined,
+        image: nadirImage ? 'data:image/jpeg;base64,' + nadirImage.image : undefined,
       },
     ];
 
