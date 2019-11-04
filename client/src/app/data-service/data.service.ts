@@ -2,7 +2,7 @@ import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 import {Observable, ReplaySubject} from 'rxjs';
 import {map, tap} from 'rxjs/operators';
-import {WebSocketSubject} from "rxjs/internal-compatibility";
+import {WebSocketSubject} from 'rxjs/internal-compatibility';
 
 export class SocketResponseMessage {
   type: SocketResponseMessageType;
@@ -24,10 +24,10 @@ export interface StratosData {
 export interface DatasetData {
   startTime: Date;
   endTime: Date;
-  path: [number, number][],
-  navigation: StratosNavigation[],
-  environment: StratosEnvironment[],
-  images: StratosImage[],
+  path: [number, number][];
+  navigation: StratosNavigation[];
+  environment: StratosEnvironment[];
+  images: StratosImage[];
 }
 
 export interface StratosNavigation {
@@ -38,7 +38,7 @@ export interface StratosNavigation {
 }
 
 export interface StratosTravel {
-  missionTime: Date,
+  missionTime: Date;
   distanceFromOrigin: number;
   distanceTravelled: number;
 }
@@ -64,16 +64,16 @@ export interface StratosEnvironment {
 }
 
 enum SocketResponseMessageType {
-  INSTANT_DATA = "INSTANT_DATA",
+  INSTANT_DATA = 'INSTANT_DATA',
 }
 
 enum SocketRequestMessageType {
-  INSTANT_DATA = "INSTANT_DATA",
+  INSTANT_DATA = 'INSTANT_DATA',
 }
 
 export enum StratosImageCamera {
-  NADIR = "NADIR",
-  HORIZON = "HORIZON",
+  NADIR = 'NADIR',
+  HORIZON = 'HORIZON',
 }
 
 @Injectable({
@@ -81,7 +81,11 @@ export enum StratosImageCamera {
 })
 export class DataService {
 
-  private socket$ = new WebSocketSubject<object>(`ws://${window.location.hostname}:80`);
+  private readonly isServedLocally = window.location.hostname === 'localhost' || window.location.hostname === '0.0.0.0';
+  private readonly host = this.isServedLocally ? `${window.location.hostname}:8080` : window.location.hostname;
+  private readonly webSocketProtocol = window.location.protocol === 'http:' ? 'ws:' : 'wss:';
+
+  private socket$ = new WebSocketSubject<object>(`${this.webSocketProtocol}//${this.host}`);
 
   private datasetData?: DatasetData;
 
@@ -98,7 +102,7 @@ export class DataService {
   }
 
   getDatasetData(): Observable<DatasetData> {
-    return this.http.get("/datasets/timmins")
+    return this.http.get(`${window.location.protocol}//${this.host}/datasets/timmins`)
       .pipe(
         map(data => data as DatasetData),
         map(data => this.parseDates(data, 'startTime', 'endTime')),
@@ -120,7 +124,7 @@ export class DataService {
           console.warn(`Unknown socket response message type: ${message.type}.`);
           break;
       }
-    })
+    });
   }
 
   getImages(indexes: number[]): StratosImage[] {
@@ -153,7 +157,7 @@ export class DataService {
   }
 
   instant(instant: Date): void {
-    this.socket$.next({type: SocketRequestMessageType.INSTANT_DATA, instant: instant.toISOString()})
+    this.socket$.next({type: SocketRequestMessageType.INSTANT_DATA, instant: instant.toISOString()});
   }
 
   getAltitudeByTime(): [Date, number][] {
