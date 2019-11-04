@@ -29,8 +29,6 @@ fun main(args: Array<String>): Unit = io.ktor.server.netty.EngineMain.main(args)
 
 @FlowPreview
 @KtorExperimentalLocationsAPI
-@Suppress("unused") // Referenced in application.conf
-@kotlin.jvm.JvmOverloads
 fun Application.module() {
 
   install(CORS) {
