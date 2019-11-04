@@ -81,7 +81,7 @@ export enum StratosImageCamera {
 })
 export class DataService {
 
-  private socket$ = new WebSocketSubject<object>('ws://localhost:8080');
+  private socket$ = new WebSocketSubject<object>(`ws://${window.location.hostname}:80`);
 
   private datasetData?: DatasetData;
 
@@ -98,7 +98,7 @@ export class DataService {
   }
 
   getDatasetData(): Observable<DatasetData> {
-    return this.http.get("http://localhost:8080/datasets/timmins")
+    return this.http.get("/datasets/timmins")
       .pipe(
         map(data => data as DatasetData),
         map(data => this.parseDates(data, 'startTime', 'endTime')),

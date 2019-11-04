@@ -16,6 +16,7 @@ import io.ktor.request.*
 import io.ktor.routing.*
 import io.ktor.locations.*
 import io.ktor.features.*
+import io.ktor.http.content.*
 import io.ktor.http.cio.websocket.Frame
 import io.ktor.jackson.jackson
 import io.ktor.websocket.WebSockets
@@ -58,6 +59,11 @@ fun Application.module() {
 
     val data = DataReaderService.get()
     val combined = DataReaderService.combineData(data)
+
+    static("/") {
+      files("static")
+      default("static/index.html")
+    }
 
     webSocket("/") {
       incoming.consumeAsFlow()
