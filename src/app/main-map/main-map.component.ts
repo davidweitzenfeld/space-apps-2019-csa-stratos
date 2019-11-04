@@ -58,7 +58,7 @@ export class MainMapComponent implements OnInit, OnChanges {
   updateRoute() {
     this.routeGeometry = {
       type: 'LineString',
-      coordinates: this.dataService.getLngLat(),
+      coordinates: this.dataService.getLngLatAlt(),
     };
   }
 

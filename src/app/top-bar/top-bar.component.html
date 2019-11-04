@@ -34,17 +34,16 @@
       (input)="currentTimeChange.emit(dateOf($event.value))">
     </mat-slider>
   </div>
-  <div class="row" style="font-size: 14px; margin-left: 68px">
-    <div>{{startTime | date:'yyyy-MM-dd h:mm a'}}</div>
-    <div style="flex-grow: 1; text-align: center; font-weight: bold;">{{currentTime | date:'yyyy-MM-dd h:mm a'}}</div>
-    <div>{{endTime | date:'yyyy-MM-dd h:mm a'}}</div>
+  <div class="row" style="font-size: 14px; margin-left: 68px; margin-bottom: 16px">
+    <div>{{startTime | date:'dd MMM yyyy h:mm a'}}</div>
+    <div style="flex-grow: 1; text-align: center; font-weight: bold;">{{currentTime | date:(areStartAndEndSameDay? 'h:mm a' :'dd MMM yyyy h:mm a')}}</div>
+    <div>{{endTime | date:(areStartAndEndSameDay? 'h:mm a' :'dd MMM yyyy h:mm a')}}</div>
   </div>
-</mat-card>
-
-<mat-expansion-panel [(expanded)]="isChartExpanded">
+  <mat-divider></mat-divider>
+<mat-expansion-panel [(expanded)]="isChartExpanded" class="mat-elevation-z0">
   <mat-expansion-panel-header>
     <mat-panel-title [ngSwitch]="isChartExpanded">
-      <div *ngSwitchCase="false">
+      <div class="section-header" *ngSwitchCase="false">
         Data charts
       </div>
       <mat-form-field *ngSwitchCase="true" (click)="$event.stopPropagation()">
@@ -67,3 +66,5 @@
     </div>
   </ng-template>
 </mat-expansion-panel>
+</mat-card>
+
