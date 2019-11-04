@@ -78,7 +78,6 @@ export class MainPageComponent implements OnInit {
   }
 
   onDataLoaded() {
-    console.log('Data loaded!');
     this.currentTime = this.dataService.getStartTime();
     this.startTime = this.dataService.getStartTime();
     this.endTime = this.dataService.getEndTime();
@@ -112,7 +111,6 @@ export class MainPageComponent implements OnInit {
   }
 
   onTimeChange(time: number) {
-    console.log('time change');
     this.currentTime = new Date(time);
     this.dataService.instant(this.currentTime);
   }
