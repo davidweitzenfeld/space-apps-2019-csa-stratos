@@ -1,0 +1,33 @@
+<mgl-map
+  id="map"
+  [style]="STYLES_MAP[style]"
+  [fitBounds]="bounds"
+  [fitBoundsOptions]="fitBoundsOptions">
+
+  <mgl-control mglNavigation position="bottom-right"></mgl-control>
+  <mgl-control mglFullscreen position="bottom-right"></mgl-control>
+  <mgl-control mglScale unit="metric" position="bottom-left"></mgl-control>
+
+  <ng-container *ngIf="isDataLoaded">
+    <mgl-geojson-source id="route-source">
+      <mgl-feature [geometry]="routeGeometry"></mgl-feature>
+    </mgl-geojson-source>
+
+    <mgl-geojson-source id="position-source" [data]="positionFeature"></mgl-geojson-source>
+
+    <mgl-layer
+      id="route"
+      type="line"
+      source="route-source"
+      [layout]="{'line-cap':'round'}"
+      [paint]="{'line-width': 5, 'line-color': '#005278', 'line-opacity': 0.8}"
+    ></mgl-layer>
+    <mgl-layer
+      id="position"
+      type="circle"
+      source="position-source"
+      [paint]="{'circle-radius': 8,'circle-color': '#1dbce5'}">
+    </mgl-layer>
+  </ng-container>
+
+</mgl-map>
