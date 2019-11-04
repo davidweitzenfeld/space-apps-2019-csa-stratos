@@ -81,7 +81,7 @@ export enum StratosImageCamera {
 })
 export class DataService {
 
-  private socket$ = new WebSocketSubject<object>(`ws://${window.location.hostname}:80`);
+  private socket$ = new WebSocketSubject<object>(`wss://${window.location.hostname}:80`);
 
   private datasetData?: DatasetData;
 
