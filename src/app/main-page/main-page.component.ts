@@ -1,11 +1,18 @@
-import {Component, OnChanges, OnInit, SimpleChanges} from '@angular/core';
-import {DataService, EnvDataPoint, TravelDataPoint} from '../data-service/data.service';
+import {Component, EventEmitter, OnInit} from '@angular/core';
+import {
+  DataService,
+  StratosEnvironment,
+  StratosImage,
+  StratosImageCamera,
+  StratosNavigation,
+  StratosTravel
+} from '../data-service/data.service';
 import {Subscription, timer} from 'rxjs';
-import {map} from 'rxjs/operators';
+import {auditTime, map} from 'rxjs/operators';
 
 export interface Image {
   name: string;
-  path: string;
+  image: string;
 }
 
 export interface ChartModel {
@@ -31,8 +38,10 @@ export class MainPageComponent implements OnInit {
   playbackRate = 60 * 10;
   playbackSubscription?: Subscription;
 
-  envData: EnvDataPoint;
-  travelData: TravelDataPoint;
+  navigation: StratosNavigation;
+  travel: StratosTravel;
+  environment?: StratosEnvironment;
+  path?: [number, number][];
 
   images: Image[];
 
@@ -42,7 +51,9 @@ export class MainPageComponent implements OnInit {
 
   previewImage?: Image;
 
-  mapStyle: 'light' | 'dark' | 'satellite' | 'outdoors'  = 'satellite';
+  mapStyle: 'light' | 'dark' | 'satellite' | 'outdoors' = 'satellite';
+
+  currentTimeChange = new EventEmitter<Date>();
 
   constructor(
     private readonly dataService: DataService,
@@ -52,6 +63,18 @@ export class MainPageComponent implements OnInit {
   ngOnInit() {
     this.dataService.loadData()
       .subscribe(() => this.onDataLoaded());
+    this.dataService.instantData$
+      .subscribe(data => {
+        this.navigation = data.navigation;
+        this.travel = data.travel;
+        this.environment = data.environment;
+        this.parseImages(this.dataService.getImages(data.images));
+      });
+    this.currentTimeChange
+      .pipe(
+        auditTime(250)
+      )
+      .subscribe(time => this.onTimeChange(time.getTime()))
   }
 
   onDataLoaded() {
@@ -60,30 +83,38 @@ export class MainPageComponent implements OnInit {
     this.startTime = this.dataService.getStartTime();
     this.endTime = this.dataService.getEndTime();
     this.mapBounds = this.dataService.getBounds();
+    this.path = this.dataService.getPath();
     this.onTimeChange(this.currentTime.getTime());
     this.loadCharts();
     this.isDataLoaded = true;
   }
 
-  onTimeChange(time: number) {
-    this.currentTime = new Date(time);
+  parseImages(images: StratosImage[]) {
+    const horizonImage = images.find(it => it.camera === StratosImageCamera.HORIZON);
+    const nadirImage = images.find(it => it.camera === StratosImageCamera.NADIR);
+
     this.images = [
       {
         name: 'HORIZON',
-        path: this.dataService.getImageNameAtTime(this.currentTime, 'HORIZON'),
+        image: horizonImage ? "data:image/jpeg;base64," + horizonImage.image : undefined,
       },
       {
         name: 'NADIR',
-        path: this.dataService.getImageNameAtTime(this.currentTime, 'NADIR'),
+        image: nadirImage ? "data:image/jpeg;base64," + nadirImage.image : undefined,
       },
     ];
+
     if (this.previewImage && this.previewImage.name === 'HORIZON') {
       this.previewImage = this.images[0];
     } else if (this.previewImage && this.previewImage.name === 'NADIR') {
       this.previewImage = this.images[1];
     }
-    this.envData = this.dataService.getEnvDataAtTime(this.currentTime);
-    this.travelData = this.dataService.getTravelDataAtTime(this.currentTime);
+  }
+
+  onTimeChange(time: number) {
+    console.log('time change');
+    this.currentTime = new Date(time);
+    this.dataService.instant(this.currentTime);
   }
 
   onPlaybackToggle() {
@@ -102,7 +133,6 @@ export class MainPageComponent implements OnInit {
   }
 
   loadCharts(): void {
-    const envData = this.dataService.getEnvData();
     this.charts = [
       {
         name: 'Altitude',
@@ -115,22 +145,38 @@ export class MainPageComponent implements OnInit {
         name: 'Temperature',
         yAxis: {title: 'Temperature (°C)'},
         series: [
-          {type: 'line', title: 'Internal Temperature', data: this.dataService.getEnvData().map(it => [it.missionTime, it.intTemperature])},
-          {type: 'line', title: 'External Temperature', data: this.dataService.getEnvData().map(it => [it.missionTime, it.extTemperature])},
+          {
+            type: 'line',
+            title: 'Internal Temperature',
+            data: this.dataService.getEnvironment().map(it => [it.missionTime, it.internalTemperature])
+          },
+          {
+            type: 'line',
+            title: 'External Temperature',
+            data: this.dataService.getEnvironment().map(it => [it.missionTime, it.externalTemperature])
+          },
         ]
       },
       {
         name: 'Pressure',
         yAxis: {title: 'Pressure'},
         series: [
-          {type: 'line', title: 'External Pressure', data: this.dataService.getEnvData().map(it => [it.missionTime, it.extPressure])},
+          {
+            type: 'line',
+            title: 'External Pressure',
+            data: this.dataService.getEnvironment().map(it => [it.missionTime, it.externalPressure])
+          },
         ]
       },
       {
         name: 'Dew Point',
         yAxis: {title: 'Dew Point'},
         series: [
-          {type: 'line', title: 'Dew Point', data: this.dataService.getEnvData().map(it => [it.missionTime, it.dewPoint])},
+          {
+            type: 'line',
+            title: 'Dew Point',
+            data: this.dataService.getEnvironment().map(it => [it.missionTime, it.dewPoint])
+          },
         ]
       },
     ];

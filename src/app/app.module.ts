@@ -6,7 +6,7 @@ import {AppComponent} from './app.component';
 import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 import {MainPageComponent} from './main-page/main-page.component';
 import {RouterModule, Routes} from '@angular/router';
-import { MainMapComponent } from './main-map/main-map.component';
+import {MainMapComponent} from './main-map/main-map.component';
 import {NgxMapboxGLModule} from 'ngx-mapbox-gl';
 import {HttpClientModule} from '@angular/common/http';
 import {
@@ -19,11 +19,11 @@ import {
   MatSliderModule
 } from '@angular/material';
 import {FormsModule} from '@angular/forms';
-import { InfoPanelComponent } from './info-panel/info-panel.component';
-import { TopBarComponent } from './top-bar/top-bar.component';
-import { ChartComponent } from './chart/chart.component';
+import {InfoPanelComponent} from './info-panel/info-panel.component';
+import {TopBarComponent} from './top-bar/top-bar.component';
+import {ChartComponent} from './chart/chart.component';
 import {HighchartsChartModule} from 'highcharts-angular';
-import { ImagePreviewComponent } from './image-preview/image-preview.component';
+import {ImagePreviewComponent} from './image-preview/image-preview.component';
 
 const routes: Routes = [
   {path: '', component: MainPageComponent}

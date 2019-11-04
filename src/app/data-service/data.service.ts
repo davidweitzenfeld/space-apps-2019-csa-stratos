@@ -1,140 +1,142 @@
 import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
-import {combineLatest, merge, Observable, of, pipe, Subject} from 'rxjs';
-import {catchError, filter, map, switchMap, tap} from 'rxjs/operators';
-import * as geolib from 'geolib';
+import {Observable, ReplaySubject} from 'rxjs';
+import {map, tap} from 'rxjs/operators';
+import {WebSocketSubject} from "rxjs/internal-compatibility";
 
-export interface NavDataPoint {
-  missionTime: Date;
-  lng: number;
-  lat: number;
-  alt: number;
+export class SocketResponseMessage {
+  type: SocketResponseMessageType;
 }
 
-export interface EventDataPoint {
-  missionTime: Date;
-  info: string;
+export class SocketResponseMessageInstantData extends SocketResponseMessage {
+  data: StratosData;
 }
 
-export interface Image {
+export interface StratosData {
   missionTime: Date;
-  camera: Camera;
-  path: string;
+  navigation: StratosNavigation;
+  travel: StratosTravel;
+  event?: StratosEvent;
+  images: number[];
+  environment?: StratosEnvironment;
 }
 
-export interface EnvDataPoint {
-  missionTime: Date;
-  intTemperature: number;
-  extTemperature: number;
-  relHumidity: number;
-  extPressure: number;
-  dewPoint: number;
+export interface DatasetData {
+  startTime: Date;
+  endTime: Date;
+  path: [number, number][],
+  navigation: StratosNavigation[],
+  environment: StratosEnvironment[],
+  images: StratosImage[],
 }
 
-export interface TravelDataPoint {
+export interface StratosNavigation {
   missionTime: Date;
-  lng: number;
-  lat: number;
-  alt: number;
+  latitude: number;
+  longitude: number;
+  altitude: number;
+}
+
+export interface StratosTravel {
+  missionTime: Date,
   distanceFromOrigin: number;
-  distanceFromPrev: number;
   distanceTravelled: number;
 }
 
-type Camera = 'NADIR' | 'HORIZON';
+export interface StratosEvent {
+  missionTime: Date;
+  message: Date;
+}
+
+export interface StratosImage {
+  missionTime: Date;
+  camera: StratosImageCamera;
+  image: string;
+}
+
+export interface StratosEnvironment {
+  missionTime: Date;
+  internalTemperature: number;
+  externalTemperature: number;
+  relativeHumidity: number;
+  externalPressure: number;
+  dewPoint: number;
+}
+
+enum SocketResponseMessageType {
+  INSTANT_DATA = "INSTANT_DATA",
+}
+
+enum SocketRequestMessageType {
+  INSTANT_DATA = "INSTANT_DATA",
+}
+
+export enum StratosImageCamera {
+  NADIR = "NADIR",
+  HORIZON = "HORIZON",
+}
 
 @Injectable({
   providedIn: 'root'
 })
 export class DataService {
 
-  // noinspection SpellCheckingInspection
-  readonly FILES = {
-    timmins: {
-      nav: 'Stratos_DataSet/TIMMINS2018/NAVEM/swnav_pos0.txt',
-      events: 'Stratos_DataSet/TIMMINS2018/CDH/HKP/swcdh_events.txt',
-      environment: 'Stratos_DataSet/TIMMINS2018/NAVEM/swem_em0.txt',
-      imagesBase: {
-        NADIR: 'assets/Stratos_DataSet/TIMMINS2018/CDH/CAM1-NADIR/',
-        HORIZON: 'assets/Stratos_DataSet/TIMMINS2018/CDH/CAM2-HOR/',
-      },
-    }
-  };
+  private socket$ = new WebSocketSubject<object>('ws://localhost:8080');
 
-  readonly COLUMNS = {
-    timmins: {
-      nav: {
-        missionTime: 1,
-        lng: 5,
-        lat: 4,
-        alt: 6,
-      },
-      events: {
-        missionTime: 1,
-        info: 4,
-      },
-      environment: {
-        missionTime: 1,
-        intTemperature: 4,
-        extTemperature: 5,
-        relHumidity: 6,
-        extPressure: 7,
-        dewPoint: 8,
-      }
-    },
-  };
+  private datasetData?: DatasetData;
 
-  // noinspection SpellCheckingInspection
-  readonly cameraToMessage = {
-    NADIR: 'Taking onboard image',
-    HORIZON: 'Requesting image from NAVEM',
-  };
-
-  private navData: NavDataPoint[] = [];
-  private eventsData: EventDataPoint[] = [];
-  private imagesData: Image[] = [];
-  private envData: EnvDataPoint[] = [];
-  private travelData: TravelDataPoint[] = [];
+  public instantData$ = new ReplaySubject<StratosData>(1);
 
   constructor(
     private readonly http: HttpClient,
   ) {
   }
 
-  loadData(): Observable<[NavDataPoint[], TravelDataPoint[], EventDataPoint[], Image[], EnvDataPoint[]]> {
-    return combineLatest([
-      this.readCsvFile(this.FILES.timmins.nav)
-        .pipe(
-          map(csv => this.parseNavData(csv)),
-          map(nav => [nav, this.calculateTravelData(nav)] as [NavDataPoint[], TravelDataPoint[]]),
-          tap(([nav]) => this.navData = nav),
-          tap(([, travel]) => this.travelData = travel),
-        ),
-      this.readCsvFile(this.FILES.timmins.events)
-        .pipe(
-          map(csv => this.parseEventsData(csv)),
-          switchMap(events => this.parseImages(events).pipe(map(images => [events, images] as [EventDataPoint[], Image[]]))),
-          tap(([events]) => this.eventsData = events),
-          tap(([, images]) => this.imagesData = images),
-        ),
-      this.readCsvFile(this.FILES.timmins.environment)
-        .pipe(
-          map(csv => this.parseEnvironmentalData(csv)),
-          tap(data => this.envData = data)
-        ),
-    ])
+  loadData(): Observable<DatasetData> {
+    this.listenToSocket();
+    return this.getDatasetData();
+  }
+
+  getDatasetData(): Observable<DatasetData> {
+    return this.http.get("http://localhost:8080/datasets/timmins")
       .pipe(
-        map(([[nav, travel], [events, images], env]) =>
-          [nav, travel, events, images, env] as [NavDataPoint[], TravelDataPoint[], EventDataPoint[], Image[], EnvDataPoint[]])
+        map(data => data as DatasetData),
+        map(data => this.parseDates(data, 'startTime', 'endTime')),
+        tap(data => data.navigation.map(it => this.parseDates(it, 'missionTime'))),
+        tap(data => data.environment.map(it => this.parseDates(it, 'missionTime'))),
+        tap(data => this.datasetData = data),
       );
   }
 
+  listenToSocket(): void {
+    this.socket$.subscribe((message: SocketResponseMessage) => {
+      // noinspection JSRedundantSwitchStatement
+      switch (message.type) {
+        case SocketResponseMessageType.INSTANT_DATA:
+          const data = (message as SocketResponseMessageInstantData).data;
+          this.instantData$.next(data);
+          break;
+        default:
+          console.warn(`Unknown socket response message type: ${message.type}.`);
+          break;
+      }
+    })
+  }
+
+  getImages(indexes: number[]): StratosImage[] {
+    return indexes.map(index => this.datasetData.images[index]);
+  }
+
+  fromDataset<T>(fn: (datasetData: DatasetData) => T): T | undefined {
+    return typeof this.datasetData !== 'undefined' ? fn(this.datasetData) : undefined;
+  }
+
   getStartTime(): Date | undefined {
-    return this.navData.length > 1 ? new Date(this.navData[0].missionTime) : undefined;
+    return this.fromDataset(data => data.startTime);
   }
 
   getEndTime(): Date | undefined {
-    return this.navData.length > 1 ? new Date(this.navData[this.navData.length - 1].missionTime) : undefined;
+    return this.fromDataset(data => data.endTime);
   }
 
   getBounds(): [[number, number], [number, number]] {
@@ -147,161 +149,27 @@ export class DataService {
   }
 
   getLngLat(): [number, number][] {
-    return this.navData
-      .map(point => [point.lng, point.lat]);
+    return this.fromDataset(data => data.path);
   }
 
-  getLngLatAtTime(time: Date): [number, number] | undefined {
-    const pt = this.getPtAtTime(time, this.navData);
-    return typeof pt !== 'undefined' ? [pt.lng, pt.lat] : undefined;
+  instant(instant: Date): void {
+    this.socket$.next({type: SocketRequestMessageType.INSTANT_DATA, instant: instant.toISOString()})
   }
 
   getAltitudeByTime(): [Date, number][] {
-    return this.navData.map(it => [it.missionTime, it.alt]);
+    return this.fromDataset(data => data.navigation.map(it => [it.missionTime, it.altitude]));
   }
 
-  getTravelDataAtTime(time: Date): TravelDataPoint {
-    return this.getPtAtTime(time, this.travelData);
+  getEnvironment(): StratosEnvironment[] {
+    return this.fromDataset(data => data.environment);
   }
 
-  getEnvData(): EnvDataPoint[] {
-    return this.envData;
+  getPath(): [number, number][] {
+    return this.fromDataset(data => data.path);
   }
 
-  getEnvDataAtTime(time: Date): EnvDataPoint | undefined {
-    return this.getPtAtTime(time, this.envData);
+  parseDates<T, K extends keyof T>(object: T, ...fields: K[]): T {
+    fields.forEach(field => object[field] = new Date(object[field] as any) as any);
+    return object;
   }
-
-  getImageNameAtTime(time: Date, camera: Camera): string | undefined {
-    const pt = this.getPtAtTime(time, this.imagesData.filter(image => image.camera === camera));
-    return typeof pt !== 'undefined' ? pt.path : undefined;
-  }
-
-  getImageName(eventInfo: string, suffix: string = ''): string {
-    const parts = eventInfo.split('/');
-    return parts[parts.length - 1];
-  }
-
-  getPtAtTime<T extends { missionTime: Date }>(time: Date, data: T[]): T | undefined {
-    const targetTime = time.getTime();
-    const found = data
-      .map((pt, idx) => [pt, idx + 1 <= data.length ? data[idx + 1] : undefined])
-      .find(([thisPt, nextPt]) =>
-        thisPt.missionTime.getTime() <= targetTime && (typeof nextPt === 'undefined' || nextPt.missionTime.getTime() > targetTime));
-    return typeof found !== 'undefined' ? found[0] : undefined;
-  }
-
-  readFile(name: string): Observable<string> {
-    return this.http.get(`assets/${name}`, {responseType: 'text'});
-  }
-
-  private readCsvFile(name: string): Observable<string[][]> {
-    return this.readFile(name)
-      .pipe(
-        map(str => this.parseCsv(str))
-      );
-  }
-
-  // noinspection JSMethodCanBeStatic
-  private parseCsv(csv: string, hasHeader: boolean = true): string[][] {
-    const parsed = csv.split('\n').map(line => line.split(','));
-    if (hasHeader) {
-      parsed.shift();
-    }
-    parsed.pop();
-    return parsed;
-  }
-
-  private parseNavData(csv: string[][]): NavDataPoint[] {
-    return csv.map(line => ({
-      missionTime: new Date(line[this.COLUMNS.timmins.nav.missionTime]),
-      lng: parseFloat(line[this.COLUMNS.timmins.nav.lng]),
-      lat: parseFloat(line[this.COLUMNS.timmins.nav.lat]),
-      alt: parseFloat(line[this.COLUMNS.timmins.nav.alt]),
-    }));
-  }
-
-  private parseEventsData(csv: string[][]): EventDataPoint[] {
-    return csv.map(line => ({
-      missionTime: new Date(line[this.COLUMNS.timmins.events.missionTime]),
-      info: line[this.COLUMNS.timmins.events.info],
-    }));
-  }
-
-  private parseImages(data: EventDataPoint[]): Observable<Image[]> {
-    return combineLatest(
-      data
-        .map(event => [event, this.getCamera(event.info)] as [EventDataPoint, Camera])
-        .filter(([, camera]) => typeof camera !== 'undefined')
-        .map(([event, camera]) =>
-          [event, camera, `${this.FILES.timmins.imagesBase[camera]}${this.getImageName(event.info)}`] as [EventDataPoint, Camera, string])
-        .map(([event, camera, path]) => this.http.get(path, {responseType: 'blob'})
-          .pipe(
-            switchMap(blob => this.createImageFromBlob(blob)),
-            map((resp: any) => ({missionTime: event.missionTime, camera, path: resp})),
-            catchError(() => of(false)),
-          )
-        ),
-    )
-      .pipe(
-        map(images => images.filter((image: Image | false) => image !== false && image.path.includes('data:image/jpeg')) as Image[])
-      );
-  }
-
-  private parseEnvironmentalData(csv: string[][]): EnvDataPoint[] {
-    return csv.map(line => ({
-      missionTime: new Date(line[this.COLUMNS.timmins.nav.missionTime]),
-      intTemperature: parseFloat(line[this.COLUMNS.timmins.environment.intTemperature]),
-      extTemperature: parseFloat(line[this.COLUMNS.timmins.environment.extTemperature]),
-      relHumidity: parseFloat(line[this.COLUMNS.timmins.environment.relHumidity]),
-      extPressure: parseFloat(line[this.COLUMNS.timmins.environment.extPressure]),
-      dewPoint: parseFloat(line[this.COLUMNS.timmins.environment.dewPoint]),
-    }));
-  }
-
-  createImageFromBlob(image: Blob): Observable<string> {
-    const obs = new Subject<string>();
-    const reader = new FileReader();
-    reader.addEventListener('load', () => {
-      obs.next(reader.result as string);
-      obs.complete();
-    }, false);
-    if (image) {
-      reader.readAsDataURL(image);
-    }
-    return obs;
-  }
-
-  private getCamera(eventInfo: string): Camera | undefined {
-    if (eventInfo.includes(this.cameraToMessage.HORIZON)) {
-      return 'HORIZON';
-    } else if (eventInfo.includes(this.cameraToMessage.NADIR)) {
-      return 'NADIR';
-    } else {
-      return undefined;
-    }
-  }
-
-  private calculateTravelData(navData: NavDataPoint[]): TravelDataPoint[] {
-    const origin = navData[0];
-
-    const distsFromPrev = navData
-      .map((nav, i) => i >= 1 ? geolib.getDistance([navData[i - 1].lng, navData[i - 1].lat], [nav.lng, nav.lat]) : 0);
-
-    const distsTravelled: number[] = [];
-    for (const [i, dist] of distsFromPrev.entries()) {
-      distsTravelled.push((i >= 1 ? distsTravelled[i - 1] : 0) + dist);
-    }
-
-    return navData.map((nav, i) => ({
-      missionTime: nav.missionTime,
-      lng: nav.lng,
-      lat: nav.lat,
-      alt: nav.alt,
-      distanceFromOrigin: geolib.getDistance([origin.lng, origin.lat], [nav.lng, nav.lat]),
-      distanceFromPrev: distsFromPrev[i],
-      distanceTravelled: distsTravelled[i],
-    }));
-  }
-
 }

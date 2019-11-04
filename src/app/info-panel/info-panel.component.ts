@@ -1,6 +1,10 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
 import {Image} from '../main-page/main-page.component';
-import {EnvDataPoint, TravelDataPoint} from '../data-service/data.service';
+import {
+  StratosEnvironment,
+  StratosNavigation,
+  StratosTravel
+} from '../data-service/data.service';
 
 @Component({
   selector: 'app-info-panel',
@@ -11,8 +15,9 @@ export class InfoPanelComponent implements OnInit {
 
   @Input() isDataLoaded = false;
   @Input() images: Image[];
-  @Input() envData?: EnvDataPoint;
-  @Input() travelData?: TravelDataPoint;
+  @Input() environment?: StratosEnvironment;
+  @Input() navigation?: StratosNavigation;
+  @Input() travel?: StratosTravel;
 
   @Output() imageSelected = new EventEmitter<Image>();
 

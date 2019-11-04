@@ -1,7 +1,8 @@
 <app-main-map
   id="map"
   [isDataLoaded]="isDataLoaded"
-  [currentTime]="currentTime"
+  [navigation]="navigation"
+  [path]="path"
   [bounds]="mapBounds"
   [style]="mapStyle">
 </app-main-map>
@@ -11,27 +12,22 @@
   <app-info-panel
     [isDataLoaded]="isDataLoaded"
     [images]="images"
-    [envData]="envData"
-    [travelData]="travelData"
+    [navigation]="navigation"
+    [environment]="environment"
+    [travel]="travel"
     (imageSelected)="previewImage = $event">
   </app-info-panel>
 
   <app-top-bar
     [(isPlayback)]="isPlayback"
-    (isPlaybackChange)="this.onPlaybackToggle()"
+    (isPlaybackChange)="onPlaybackToggle()"
     [(playbackRate)]="playbackRate"
-    [(currentTime)]="currentTime"
-    (currentTimeChange)="this.onTimeChange(currentTime.getTime())"
+    [currentTime]="currentTime"
+    (currentTimeChange)="currentTimeChange.emit($event)"
     [startTime]="startTime"
     [endTime]="endTime"
     [charts]="charts">
   </app-top-bar>
-
-  <app-image-preview
-    *ngIf="previewImage"
-    [image]="previewImage"
-    (close)="previewImage = undefined">
-  </app-image-preview>
 
   <mat-card class="options-card">
     <mat-form-field (click)="$event.stopPropagation()">
@@ -44,5 +40,11 @@
       </mat-select>
     </mat-form-field>
   </mat-card>
+
+  <app-image-preview
+    *ngIf="previewImage"
+    [image]="previewImage"
+    (close)="previewImage = undefined">
+  </app-image-preview>
 
 </ng-container>

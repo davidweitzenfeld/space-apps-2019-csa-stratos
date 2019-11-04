@@ -1,9 +1,8 @@
-import {Component, Input, OnChanges, OnInit, SimpleChanges, ViewChild} from '@angular/core';
+import {Component, Input, OnChanges, OnInit, SimpleChanges} from '@angular/core';
 import GeoJSONGeometry = GeoJSON.Geometry;
 import GeoJSONFeature = GeoJSON.Feature;
-import {DataService} from '../data-service/data.service';
+import {StratosNavigation} from '../data-service/data.service';
 import {FitBoundsOptions} from 'mapbox-gl';
-import {MapComponent} from 'ngx-mapbox-gl';
 
 type Style = 'light' | 'dark' | 'satellite' | 'outdoors';
 
@@ -15,7 +14,8 @@ type Style = 'light' | 'dark' | 'satellite' | 'outdoors';
 export class MainMapComponent implements OnInit, OnChanges {
 
   @Input() isDataLoaded = false;
-  @Input() currentTime?: Date;
+  @Input() navigation?: StratosNavigation;
+  @Input() path?: [number, number][];
   @Input() bounds?: [[number, number], [number, number]];
   @Input() style: Style = 'satellite';
 
@@ -37,20 +37,14 @@ export class MainMapComponent implements OnInit, OnChanges {
     }
   };
 
-  constructor(
-    private readonly dataService: DataService,
-  ) {
-  }
-
   ngOnInit() {
   }
 
   ngOnChanges(changes: SimpleChanges): void {
-    if ('isDataLoaded' in changes && this.isDataLoaded) {
+    if ('path' in changes && this.path) {
       this.updateRoute();
-      this.updatePosition();
     }
-    if ('currentTime' in changes && this.isDataLoaded) {
+    if ('navigation' in changes && this.navigation) {
       this.updatePosition();
     }
   }
@@ -58,17 +52,19 @@ export class MainMapComponent implements OnInit, OnChanges {
   updateRoute() {
     this.routeGeometry = {
       type: 'LineString',
-      coordinates: this.dataService.getLngLat(),
+      coordinates: this.path
     };
   }
 
   updatePosition() {
+    const position = this.navigation ? [this.navigation.longitude, this.navigation.latitude] : undefined;
+
     this.positionFeature = {
       type: 'Feature',
       properties: {},
       geometry: {
         type: 'Point',
-        coordinates: this.dataService.getLngLatAtTime(this.currentTime),
+        coordinates: position,
       }
     };
   }
