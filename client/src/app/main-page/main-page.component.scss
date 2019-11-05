@@ -34,7 +34,7 @@ app-image-preview {
   }
 }
 
-#map, #loading-overlay {
+#map, .loading-overlay {
   position: fixed;
   top: 0;
   left: 0;
@@ -44,7 +44,7 @@ app-image-preview {
   height: 100%;
 }
 
-#loading-overlay {
+.loading-overlay {
   display: flex;
   flex-direction: column;
 
