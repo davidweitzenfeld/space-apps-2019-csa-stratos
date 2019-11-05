@@ -56,7 +56,7 @@ export class MainPageComponent implements OnInit {
   currentTimeChange = new EventEmitter<Date>();
 
   constructor(
-    private readonly dataService: DataService,
+    public readonly dataService: DataService,
   ) {
   }
 
